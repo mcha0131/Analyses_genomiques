@@ -139,11 +139,30 @@ Sélectionner Yes et OK aux deux prochaines fenêtres pour la création du Trait
 
 4.6) Ouvrir le logiciel Tracer et importer le fichier "phylogeo_final.log". Une fois l'importation terminée, on vérifie que tous les ESS sont significatif (>200). 
 
-4.7) Ouvrir le logiciel LogCombiner v10.5.0
+4.7.1) Si vous ave assez de RAM pour lancer directement FigTree passer au point 4.7.2.
+
+Ouvrir le logiciel LogCombiner v10.5.0 et importer dans "Input_file" le fichier "phylogeo_final.trees". Noter dans "Output file "phylogeo_final_reduced_trees".
+Sélectionner Resample states at lower frequency = 10000
+Sélectionner Burning = 10
+
+
+4.7.2) Ouvrir TreeAnnotator et appliquer les paramètres suivants :  Burnin = 0 (car déjà appliqué)
+                                                                    Target tree type = Maximum Clade Credibility tree
+                                                                    Node heights = Mean heights
+
+
+Importer le fichier "phylogeo_final_reduced_trees" dans Input Tree File
+Exporter le fichier "phylogeo_final_MCC_Trees" 
 
 
 
-2023.4575342465753
+4.8) Visualisation via le logiciel FigTree v1.4.4 en important directement le fichier "phylogeo_final_MCC_Trees".
+
+Le reste des paramètres FigTree sont disponible dans le fichier "phylogeo_FigTree".
+
+
+
+
 
 
 
