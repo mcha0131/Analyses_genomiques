@@ -6,7 +6,7 @@
 
 # Charger le fichier traits
 data <- read.table(
-  "C:/Users/Maxime/Epidemiology/Binome_02/traits_location_taxa.txt",
+  "traits.txt",
   header = TRUE,
   stringsAsFactors = FALSE
 )
@@ -20,7 +20,7 @@ colnames(data2) <- c("traits", "state")
 # Exporter le vrai fichier BEAST
 write.table(
   data2,
-  file = "C:/Users/Maxime/Epidemiology/Binome_02/traits_BEAST.txt",
+  file = "traits_BEAST.txt",
   sep = "\t",
   quote = FALSE,
   row.names = FALSE,
