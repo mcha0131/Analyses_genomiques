@@ -1,9 +1,15 @@
-data <- read.csv("C:/Users/Maxime/Epidemiology/Binome_02/DENV_genomic_analyses_simulated_dataset_2-1.csv")
+# Introduction to spatial and molecular epidemiology (BING-F432)
+# Bousfanj Mohamed
+# Chaouche Maxime
+
+
+
+data <- read.csv("DENV_genomic_analyses_simulated_dataset_2-1.csv")
 
 dates_tempest <- data[, c("ID", "collection_date")]
 
 write.table(dates_tempest,
-            "C:/Users/Maxime/Epidemiology/Binome_02/dates_tempest_no_header.txt",
+            "dates_tempest_no_header.txt",
             sep = "\t",
             row.names = FALSE,
             col.names = FALSE,
