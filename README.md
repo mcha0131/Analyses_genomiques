@@ -4,7 +4,7 @@ Professeur : Dellicour Simon
 Ce read me contient toutes les étapes nécessaires à la réalisation de ce projet. Les éléments ci-dessous seront 
 énumérés selon l'ordre défini par les instructions et travaux pratiques du cours intitulé : Introduction to spatial and molecular epidemiology.
 
-
+Certains fichier deviennent trop lourd pour exporter directement sur GitHub mais peuvent facilement être recréé via les différentes étapes ci-dessous. 
 
 
 
@@ -159,6 +159,37 @@ Exporter le fichier "phylogeo_final_MCC_Trees"
 4.8) Visualisation via le logiciel FigTree v1.4.4 en important directement le fichier "phylogeo_final_MCC_Trees".
 
 Le reste des paramètres FigTree sont disponible dans le fichier "phylogeo_FigTree".
+
+4.9) Cette étape nécessite de télécharger :  spreaD3_v0.9.6
+
+4.9.1) Importer le fichier "phylogeo_final_MCC_Trees" dans le logiciel spreaD3
+
+4.9.2) Dans l'onglet Data, les paramètres à implémenter sont les suivants pour générer le fichier "phylogeo_spread3.json :   Select location attribute = state
+                                                         Setup location coordinates :
+                                                         CHN  Lat=35 Long=103
+                                                         VNM  Lat=16 Long=108
+                                                         THA  Lat=15 Long=101
+                                                         KHM  Lat=12 Long=105
+                                                         LAO  Lat=18 Long=103
+                                                         Most recent sampling date : Decimal format = 2023.5972602739726
+                                                         Time scale multiplier = 1 
+                                                         Number of intervals = 20
+
+4.9.3) Dans l'onglet Rendering, les paramètres à implémenter sont le suivants pour générer le fichier "phylogeo_earth.kml" :  Lines fixed altitude = 50000
+
+
+4.9.4) Générer le fichier .kml 
+
+
+4.10) Ouvrir le fichier "phylogeo_earth.kml" ouvrir directement l'application Google Earth avec une visualisation des flux et dispersions.
+
+                                                         
+                                                    
+
+
+
+
+
 
 
 
