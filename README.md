@@ -49,7 +49,7 @@ Le fichier DENV_genomic_analyses_dataset_2-1.fas.treefile sera alors crée.
 
 2.4)  Evaluation de la présence d'un signal temporel en utilisant TempEst 
 
-Cette étape nécesite de télécharger TempEst sous Windows 
+Cette étape nécessite de télécharger TempEst v1.5.3 sous Windows 
 
 2.4.1) Créer un fichier .txt à partir du fichier DENV_genomic_analyses_simulated_dataset_2-1.csv sous R ,sans les titres (dates_tempest_no_header.txt) . 
 
@@ -61,7 +61,10 @@ Les données sont disponible dans le document TempEst data. Il nous montre un si
 
 
 
-3) 
+3)   Effectuer une inférence phylogénétique Bayésienne avec un modèle d’horloge moléculaire, ainsi qu’un modèle de coalescence vous permettant d’estimer le taux de reproduction de base du virus (R0).
+
+
+
 
 
 
