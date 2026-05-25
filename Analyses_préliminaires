@@ -1,0 +1,93 @@
+# Introduction to spatial and molecular epidemiology (BING-F432)
+# Bousfanj Mohamed
+# Chaouche Maxime
+
+
+# ===== B. Analyses génomique =====
+
+# Propagation de la dengue en Asie du Sud-Est
+
+
+
+# ===== 0. Analyse préliminaire =====
+
+data <- read.csv("DENV_genomic_analyses_simulated_dataset_2-1.csv", stringsAsFactors = FALSE)
+
+
+data$collection_date <- as.Date(data$collection_date)
+
+
+homme <- data[grepl("^H", data$ID), ]
+
+
+moustique <- data[grepl("^M", data$ID), ]
+
+
+homme <- homme[order(homme$location, homme$collection_date), ]
+moustique <- moustique[order(moustique$location, moustique$collection_date), ]
+
+
+write.csv(homme, "Homme.csv", row.names = FALSE)
+write.csv(moustique, "Moustique.csv", row.names = FALSE)
+
+
+
+if (!require(sp)) install.packages("sp") 
+if (!require(raster)) install.packages("raster")
+if (!require(colorspace)) install.packages("colorspace")
+if (!require(MetBrewer)) install.packages("MetBrewer")
+if (!require(RColorBrewer)) install.packages("RColorBrewer")
+if (!require(lubridate)) install.packages("lubridate")
+if (!require(EpiEstim)) install.packages("EpiEstim")
+library(sp); library(raster); library(colorspace); library(MetBrewer); 
+library(RColorBrewer);library(lubridate); library(EpiEstim)
+
+
+
+
+# ===== 0.1 Estimation et visualisation de Rt =====
+
+days = interval(min(ymd(homme[,"collection_date"])),ymd(homme[,"collection_date"]))%/%days(1)+1
+total_number_of_days = interval(min(ymd(homme[,"collection_date"])),max(ymd(homme[,"collection_date"])))%/%days(1)-1
+daily_cases = rep(NA, total_number_of_days)
+for (i in 1:length(daily_cases)) {
+  daily_cases[i] = sum(days==i)
+}
+
+
+n = 1000 
+mean_range = c(13, 17) 
+sd_range = c(4, 6) 
+t_start = seq(2, length(daily_cases)-6) 
+t_end = seq(8, length(daily_cases)) 
+all_Rt = matrix(NA, nrow=length(t_start), ncol=n) 
+for (i in 1:n) {
+  mean_si_i = runif(1, mean_range[1], mean_range[2]) 
+  sd_si_i = runif(1, sd_range[1], sd_range[2])
+  res_i = estimate_R(incid=daily_cases, method="parametric_si", config=make_config(list(
+    mean_si=mean_si_i, std_si=sd_si_i, t_start=t_start, t_end=t_end)))
+  all_Rt[,i] = res_i$R$`Mean(R)` 
+}
+R_median = apply(all_Rt, 1, median, na.rm=T); Rt_days = (t_start+t_end)/2
+R_dates = decimal_date(min(ymd(homme[,"collection_date"]))+Rt_days)
+R_lower = apply(all_Rt, 1, quantile, probs=0.025, na.rm=T)
+R_upper = apply(all_Rt, 1, quantile, probs=0.975, na.rm=T)
+
+
+
+par(oma=c(0,0,0,0), mar=c(2.0,4,0.1,0.5), lwd=0.3, bty="o", col="gray30", col.axis="gray30",
+    fg="gray30") 
+plot(R_dates, R_median, lwd=0.7, type="l", cex.axis=0.8, cex.lab=0.8, col="gray30", axes=F,
+     xlab=NA, ylab=NA, ylim=c(0,25), xlim=c(2023.393,2023.602)) 
+xx_l = c(R_dates,rev(R_dates)); yy_l = c(R_lower,rev(R_upper)) 
+polygon(xx_l,yy_l,col=rgb(187/255,187/255,187/255,0.25),border=0) 
+lines(R_dates, R_median, lwd=0.3, type="l", cex.axis=0.8, cex.lab=0.8, col="gray30") 
+abline(h=1, lty=2, lwd=0.3, col="gray30")
+dates = c("2023-05-23","2023-06-01","2023-06-15","2023-07-01","2023-07-15","2025-08-01",
+          "2025-08-15","2025-09-01") 
+ats = decimal_date(ymd(dates)); labels = dates
+axis(side=1, lwd=0.5, cex.axis=0.7, mgp=c(0,0.17,0), lwd.tick=0.5, col.lab="gray30", col="gray30",
+     tck=-0.03, las=1, at=ats, label=labels) 
+axis(side=2, lwd=0.5, cex.axis=0.7, mgp=c(0,0.6,0), lwd.tick=0.5, col.lab="gray30", col="gray30",
+     tck=-0.03, las=1, padj=0.4, at=seq(-2,25)) 
+mtext("Effective reproduction number", side=2, col="gray30", cex=0.9, line=1.7, las=3)
