@@ -59,14 +59,20 @@ Cette étape nécessite de télécharger TempEst v1.5.3 sous Windows
 Les données sont disponible dans le document TempEst data. Il nous montre un signal temporel suffisant pour calibrer et utiliser un modèle d’horloge moléculaire permettant d’inférer des phylogénies dont la longueur des branches est en unité de temps.
 
 
+3) Effectuer une inférence phylogénétique Bayésienne avec un modèle d’horloge moléculaire, ainsi qu’un modèle de coalescence vous permettant d’estimer le taux de reproduction de base du virus (R0).
+
+Cette étape nécessite de télécharger :  BEAST X v10.5.0
+                                        Beagle
+                                        Tracer.v.1.7.2
+                                        FigTree v1.4.4
+                                  
 
 
-3)   Effectuer une inférence phylogénétique Bayésienne avec un modèle d’horloge moléculaire, ainsi qu’un modèle de coalescence vous permettant d’estimer le taux de reproduction de base du virus (R0).
+3.1) Ouvrir BEAUti et importer le fichier "DENV_genomic_analyses_simulated_dataset_2-1.fas" en sélectionnant "Import Data".
 
+3.2) Aller sur l'onglet Tips et sélectionner Use tip dates. Sélectionner Import Dates et choisir "dates_tempest_no_header.txt". Sélectionner Parse as calendar date.
 
-
-
-
+3.3) Le reste des paramètres BEAUti sont disponible dans le dossier "BEAUti_
 
 
 
