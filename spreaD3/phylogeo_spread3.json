@@ -1,0 +1,5119 @@
+{
+  "timeLine": {
+    "startTime": "2021/11/04",
+    "endTime": "2023/07/05"
+  },
+  "axisAttributes": {
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+  },
+  "lineAttributes": [
+    {
+      "id": "nodeName",
+      "scale": "ordinal",
+      "domain": [
+        "H-275",
+        "H-197",
+        "H-152",
+        "H-112",
+        "H-354",
+        "H-46",
+        "H-277",
+        "H-190",
+        "H-47",
+        "H-193",
+        "H-239",
+        "H-514",
+        "H-314",
+        "H-159",
+        "H-478",
+        "H-318",
+        "H-72",
+        "H-240",
+        "H-75",
+        "H-481",
+        "H-125",
+        "H-246",
+        "H-169",
+        "H-32",
+        "H-124",
+        "H-322",
+        "H-245",
+        "H-288",
+        "H-243",
+        "H-281",
+        "H-129",
+        "H-128",
+        "H-447",
+        "H-248",
+        "H-329",
+        "H-449",
+        "H-61",
+        "internal",
+        "H-130",
+        "H-64",
+        "H-212",
+        "H-333",
+        "H-23",
+        "H-370",
+        "H-385",
+        "H-11",
+        "H-301",
+        "H-55",
+        "H-146",
+        "H-101",
+        "H-343",
+        "H-145",
+        "H-387",
+        "H-342",
+        "H-100",
+        "H-386",
+        "H-59",
+        "H-14",
+        "H-4",
+        "H-180",
+        "H-3",
+        "H-9",
+        "H-107",
+        "H-347",
+        "H-104",
+        "H-309",
+        "H-307",
+        "H-60",
+        "H-229"
+      ]
+    },
+    {
+      "id": "state.rate",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.5801951952048546
+      ]
+    },
+    {
+      "id": "state.rate_median",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.16056695860348208
+      ]
+    },
+    {
+      "id": "default.rate",
+      "scale": "linear",
+      "range": [
+        0.01,
+        0.49
+      ]
+    },
+    {
+      "id": "length",
+      "scale": "linear",
+      "range": [
+        0.05,
+        0.0542877065899336
+      ]
+    },
+    {
+      "id": "posterior",
+      "scale": "linear",
+      "range": [
+        0.81,
+        1.0
+      ]
+    },
+    {
+      "id": "state.prob",
+      "scale": "linear",
+      "range": [
+        0.59,
+        1.0
+      ]
+    },
+    {
+      "id": "height_mean",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.5801951952048473
+      ]
+    },
+    {
+      "id": "default.rate_median",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.11
+      ]
+    },
+    {
+      "id": "length_median",
+      "scale": "linear",
+      "range": [
+        0.05,
+        0.054957620239472094
+      ]
+    },
+    {
+      "id": "state",
+      "scale": "ordinal",
+      "domain": [
+        "KHM",
+        "VNM",
+        "CHN",
+        "LAO",
+        "THA"
+      ]
+    },
+    {
+      "id": "height_median",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.16056695860348208
+      ]
+    }
+  ],
+  "pointAttributes": [
+    {
+      "id": "nodeName",
+      "scale": "ordinal",
+      "domain": [
+        "H-275",
+        "H-197",
+        "H-152",
+        "H-112",
+        "H-354",
+        "H-46",
+        "H-277",
+        "H-190",
+        "H-47",
+        "H-193",
+        "H-239",
+        "H-514",
+        "H-314",
+        "H-159",
+        "H-478",
+        "H-318",
+        "H-72",
+        "H-240",
+        "H-75",
+        "H-481",
+        "H-125",
+        "H-246",
+        "H-169",
+        "H-32",
+        "H-124",
+        "H-322",
+        "H-245",
+        "H-288",
+        "H-243",
+        "H-281",
+        "H-129",
+        "H-128",
+        "H-447",
+        "H-248",
+        "H-329",
+        "H-449",
+        "H-61",
+        "internal",
+        "H-130",
+        "H-64",
+        "H-212",
+        "H-333",
+        "H-23",
+        "H-370",
+        "H-385",
+        "H-11",
+        "H-301",
+        "H-55",
+        "H-146",
+        "H-101",
+        "H-343",
+        "H-145",
+        "H-387",
+        "H-342",
+        "H-100",
+        "H-386",
+        "H-59",
+        "H-14",
+        "H-4",
+        "H-180",
+        "H-3",
+        "H-9",
+        "H-107",
+        "H-347",
+        "H-104",
+        "H-309",
+        "H-307",
+        "H-60",
+        "H-229"
+      ]
+    },
+    {
+      "id": "state.rate",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.5801951952048546
+      ]
+    },
+    {
+      "id": "state.rate_median",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.16056695860348208
+      ]
+    },
+    {
+      "id": "default.rate",
+      "scale": "linear",
+      "range": [
+        0.01,
+        0.49
+      ]
+    },
+    {
+      "id": "length",
+      "scale": "linear",
+      "range": [
+        0.05,
+        0.0542877065899336
+      ]
+    },
+    {
+      "id": "posterior",
+      "scale": "linear",
+      "range": [
+        0.81,
+        1.0
+      ]
+    },
+    {
+      "id": "state.prob",
+      "scale": "linear",
+      "range": [
+        0.59,
+        1.0
+      ]
+    },
+    {
+      "id": "height_mean",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.5801951952048473
+      ]
+    },
+    {
+      "id": "default.rate_median",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.11
+      ]
+    },
+    {
+      "id": "length_median",
+      "scale": "linear",
+      "range": [
+        0.05,
+        0.054957620239472094
+      ]
+    },
+    {
+      "id": "state",
+      "scale": "ordinal",
+      "domain": [
+        "KHM",
+        "VNM",
+        "CHN",
+        "LAO",
+        "THA"
+      ]
+    },
+    {
+      "id": "height_median",
+      "scale": "linear",
+      "range": [
+        0.0,
+        0.16056695860348208
+      ]
+    },
+    {
+      "id": "count",
+      "scale": "linear",
+      "range": [
+        1.0,
+        60.0
+      ]
+    },
+    {
+      "id": "xCoordinate",
+      "scale": "linear",
+      "range": [
+        101.0,
+        108.0
+      ]
+    },
+    {
+      "id": "yCoordinate",
+      "scale": "linear",
+      "range": [
+        12.5,
+        35.0
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "KHM",
+      "coordinate": {
+        "xCoordinate": 105.0,
+        "yCoordinate": 12.5,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "VNM",
+      "coordinate": {
+        "xCoordinate": 108.0,
+        "yCoordinate": 16.0,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "CHN",
+      "coordinate": {
+        "xCoordinate": 103.0,
+        "yCoordinate": 35.0,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "THA",
+      "coordinate": {
+        "xCoordinate": 101.0,
+        "yCoordinate": 15.0,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "LAO",
+      "coordinate": {
+        "xCoordinate": 103.0,
+        "yCoordinate": 18.0,
+        "altitude": 0.0
+      }
+    }
+  ],
+  "layers": [
+    {
+      "type": "counts",
+      "id": "C:\\Users\\Maxime\\Epidemiology\\Binome_02\\BEAUti\\phylogeo_final_MCC_Trees",
+      "description": "Counts layer",
+      "points": [
+        {
+          "id": "367065515",
+          "locationId": "VNM",
+          "startTime": "2022/01/04",
+          "endTime": "2022/03/04",
+          "attributes": {
+            "count": 2
+          }
+        },
+        {
+          "id": "366946351",
+          "locationId": "VNM",
+          "startTime": "2022/03/04",
+          "endTime": "2022/05/04",
+          "attributes": {
+            "count": 2
+          }
+        },
+        {
+          "id": "366827186",
+          "locationId": "VNM",
+          "startTime": "2022/05/04",
+          "endTime": "2022/07/05",
+          "attributes": {
+            "count": 4
+          }
+        },
+        {
+          "id": "366718778",
+          "locationId": "KHM",
+          "startTime": "2022/07/05",
+          "endTime": "2022/09/05",
+          "attributes": {
+            "count": 2
+          }
+        },
+        {
+          "id": "366708021",
+          "locationId": "VNM",
+          "startTime": "2022/07/05",
+          "endTime": "2022/09/05",
+          "attributes": {
+            "count": 14
+          }
+        },
+        {
+          "id": "366710141",
+          "locationId": "THA",
+          "startTime": "2022/07/05",
+          "endTime": "2022/09/05",
+          "attributes": {
+            "count": 2
+          }
+        },
+        {
+          "id": "365974003",
+          "locationId": "KHM",
+          "startTime": "2022/09/05",
+          "endTime": "2022/11/05",
+          "attributes": {
+            "count": 5
+          }
+        },
+        {
+          "id": "365963246",
+          "locationId": "VNM",
+          "startTime": "2022/09/05",
+          "endTime": "2022/11/05",
+          "attributes": {
+            "count": 24
+          }
+        },
+        {
+          "id": "365981690",
+          "locationId": "CHN",
+          "startTime": "2022/09/05",
+          "endTime": "2022/11/05",
+          "attributes": {
+            "count": 5
+          }
+        },
+        {
+          "id": "365965366",
+          "locationId": "THA",
+          "startTime": "2022/09/05",
+          "endTime": "2022/11/05",
+          "attributes": {
+            "count": 2
+          }
+        },
+        {
+          "id": "521291350",
+          "locationId": "KHM",
+          "startTime": "2022/11/05",
+          "endTime": "2023/01/05",
+          "attributes": {
+            "count": 6
+          }
+        },
+        {
+          "id": "521302107",
+          "locationId": "VNM",
+          "startTime": "2022/11/05",
+          "endTime": "2023/01/05",
+          "attributes": {
+            "count": 47
+          }
+        },
+        {
+          "id": "521283663",
+          "locationId": "CHN",
+          "startTime": "2022/11/05",
+          "endTime": "2023/01/05",
+          "attributes": {
+            "count": 10
+          }
+        },
+        {
+          "id": "521299987",
+          "locationId": "THA",
+          "startTime": "2022/11/05",
+          "endTime": "2023/01/05",
+          "attributes": {
+            "count": 2
+          }
+        },
+        {
+          "id": "521292096",
+          "locationId": "LAO",
+          "startTime": "2022/11/05",
+          "endTime": "2023/01/05",
+          "attributes": {
+            "count": 2
+          }
+        },
+        {
+          "id": "1407931092",
+          "locationId": "KHM",
+          "startTime": "2023/01/05",
+          "endTime": "2023/03/05",
+          "attributes": {
+            "count": 33
+          }
+        },
+        {
+          "id": "1407941849",
+          "locationId": "VNM",
+          "startTime": "2023/01/05",
+          "endTime": "2023/03/05",
+          "attributes": {
+            "count": 60
+          }
+        },
+        {
+          "id": "1407923405",
+          "locationId": "CHN",
+          "startTime": "2023/01/05",
+          "endTime": "2023/03/05",
+          "attributes": {
+            "count": 8
+          }
+        },
+        {
+          "id": "1407939729",
+          "locationId": "THA",
+          "startTime": "2023/01/05",
+          "endTime": "2023/03/05",
+          "attributes": {
+            "count": 4
+          }
+        },
+        {
+          "id": "1407931838",
+          "locationId": "LAO",
+          "startTime": "2023/01/05",
+          "endTime": "2023/03/05",
+          "attributes": {
+            "count": 2
+          }
+        },
+        {
+          "id": "1408050256",
+          "locationId": "KHM",
+          "startTime": "2023/03/05",
+          "endTime": "2023/05/05",
+          "attributes": {
+            "count": 38
+          }
+        },
+        {
+          "id": "1408061013",
+          "locationId": "VNM",
+          "startTime": "2023/03/05",
+          "endTime": "2023/05/05",
+          "attributes": {
+            "count": 33
+          }
+        },
+        {
+          "id": "1408042569",
+          "locationId": "CHN",
+          "startTime": "2023/03/05",
+          "endTime": "2023/05/05",
+          "attributes": {
+            "count": 1
+          }
+        },
+        {
+          "id": "1408058893",
+          "locationId": "THA",
+          "startTime": "2023/03/05",
+          "endTime": "2023/05/05",
+          "attributes": {
+            "count": 4
+          }
+        },
+        {
+          "id": "1408051002",
+          "locationId": "LAO",
+          "startTime": "2023/03/05",
+          "endTime": "2023/05/05",
+          "attributes": {
+            "count": 3
+          }
+        },
+        {
+          "id": "1408169420",
+          "locationId": "KHM",
+          "startTime": "2023/05/05",
+          "endTime": "2023/07/05",
+          "attributes": {
+            "count": 11
+          }
+        },
+        {
+          "id": "1408180177",
+          "locationId": "VNM",
+          "startTime": "2023/05/05",
+          "endTime": "2023/07/05",
+          "attributes": {
+            "count": 3
+          }
+        }
+      ]
+    },
+    {
+      "type": "tree",
+      "id": "C:\\Users\\Maxime\\Epidemiology\\Binome_02\\BEAUti\\phylogeo_final_MCC_Trees",
+      "description": "Tree layer",
+      "points": [
+        {
+          "id": "1443440330",
+          "locationId": "VNM",
+          "startTime": "2023/03/16",
+          "attributes": {
+            "state.rate": 0.25947801479736476,
+            "default.rate": 0.08015408035518995,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.6772,
+            "height_mean": 0.2594780147973627,
+            "height_median": 0.07661158097775976,
+            "state.rate_median": 0.07661158097775976,
+            "default.rate_median": 0.01950664423970116,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443451123",
+          "locationId": "KHM",
+          "startTime": "2023/03/01",
+          "attributes": {
+            "state.rate": 0.03561643835610092,
+            "default.rate": 0.23782882967033453,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03561643835610092,
+            "height_median": 0.03561643835610087,
+            "state.rate_median": 0.03561643835610087,
+            "default.rate_median": 0.05801001937067439,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-107",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443470120",
+          "locationId": "VNM",
+          "startTime": "2023/02/17",
+          "attributes": {
+            "state.rate": 0.2810943562729337,
+            "default.rate": 0.07039070104963487,
+            "length": 0.05437432782164697,
+            "posterior": 0.9984,
+            "state.prob": 0.9629407051282052,
+            "height_mean": 0.28109435627293594,
+            "height_median": 0.08646462294095487,
+            "state.rate_median": 0.08646462294095487,
+            "default.rate_median": 0.02140733711617389,
+            "length_median": 0.054960787502947674,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443472247",
+          "locationId": "THA",
+          "startTime": "2023/02/10",
+          "attributes": {
+            "state.rate": 0.013698630137014408,
+            "default.rate": 0.2732191163996772,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.013698630137014408,
+            "height_median": 0.013698630137014361,
+            "state.rate_median": 0.013698630137014361,
+            "default.rate_median": 0.07498827548305073,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-243",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443353077",
+          "locationId": "THA",
+          "startTime": "2023/06/16",
+          "attributes": {
+            "state.rate": 0.005479452054714851,
+            "default.rate": 0.26359682354196434,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714851,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.06946033852063452,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-329",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964917010",
+          "locationId": "VNM",
+          "startTime": "2022/12/11",
+          "attributes": {
+            "state.rate": 0.2243404225930066,
+            "default.rate": 0.006124312081251495,
+            "length": 0.05449029058046114,
+            "posterior": 0.6098,
+            "state.prob": 0.9990160708428993,
+            "height_mean": 0.22434042259300596,
+            "height_median": 0.10480731789732553,
+            "state.rate_median": 0.10480731789732553,
+            "default.rate_median": 0.0022658645645770165,
+            "length_median": 0.054969654847724675,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443412659",
+          "locationId": "THA",
+          "startTime": "2023/04/16",
+          "attributes": {
+            "state.rate": 0.01643835616437178,
+            "default.rate": 0.19291906277886636,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.01643835616437178,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.04774603791013624,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-193",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443510672",
+          "locationId": "KHM",
+          "startTime": "2023/01/13",
+          "attributes": {
+            "state.rate": 0.35338948582184454,
+            "default.rate": 0.054814858139199125,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.991,
+            "height_mean": 0.3533894858218446,
+            "height_median": 0.08945252964916367,
+            "state.rate_median": 0.08945252964916367,
+            "default.rate_median": 0.011261092846791707,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964877269",
+          "locationId": "LAO",
+          "startTime": "2022/11/30",
+          "attributes": {
+            "state.rate": 0.09863013698623044,
+            "default.rate": 0.2905169653426828,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.09863013698623044,
+            "height_median": 0.09863013698623038,
+            "state.rate_median": 0.09863013698623038,
+            "default.rate_median": 0.0418195755389104,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-11",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964857403",
+          "locationId": "VNM",
+          "startTime": "2022/10/07",
+          "attributes": {
+            "state.rate": 0.3630805618128288,
+            "default.rate": 0.009198177838644224,
+            "length": 0.05433301804494746,
+            "posterior": 0.9684,
+            "state.prob": 0.9935976869062371,
+            "height_mean": 0.3630805618128269,
+            "height_median": 0.11340075609454972,
+            "state.rate_median": 0.11340075609454972,
+            "default.rate_median": 0.0025775602828285657,
+            "length_median": 0.05496297446397112,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964887254",
+          "locationId": "VNM",
+          "startTime": "2022/11/25",
+          "attributes": {
+            "state.rate": 0.3092552508803842,
+            "default.rate": 0.024916773443684707,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.9967993598719744,
+            "height_mean": 0.3092552508803846,
+            "height_median": 0.09204173697189579,
+            "state.rate_median": 0.09204173697189579,
+            "default.rate_median": 0.005852919120540784,
+            "length_median": 0.05495836498563483,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964898605",
+          "locationId": "CHN",
+          "startTime": "2022/12/29",
+          "attributes": {
+            "state.rate": 0.02191780821908658,
+            "default.rate": 0.29105264035599654,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.02191780821908658,
+            "height_median": 0.021917808219086538,
+            "state.rate_median": 0.021917808219086538,
+            "default.rate_median": 0.06946818989291739,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-145",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964887220",
+          "locationId": "VNM",
+          "startTime": "2022/11/12",
+          "attributes": {
+            "state.rate": 0.26412732377179343,
+            "default.rate": 0.07243517598129628,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9584,
+            "height_mean": 0.2641273237717954,
+            "height_median": 0.07777031543732214,
+            "state.rate_median": 0.07777031543732214,
+            "default.rate_median": 0.02226284774040852,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443470125",
+          "locationId": "VNM",
+          "startTime": "2023/02/12",
+          "attributes": {
+            "state.rate": 0.008219178082072238,
+            "default.rate": 0.19393733718746026,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.008219178082072238,
+            "height_median": 0.008219178082072204,
+            "state.rate_median": 0.008219178082072204,
+            "default.rate_median": 0.06498816567597668,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "H-275",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443510666",
+          "locationId": "KHM",
+          "startTime": "2023/01/19",
+          "attributes": {
+            "state.rate": 0.0794520547945013,
+            "default.rate": 0.24604946937649694,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0794520547945013,
+            "height_median": 0.07945205479450126,
+            "state.rate_median": 0.07945205479450126,
+            "default.rate_median": 0.02702927141073328,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-23",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964183613",
+          "locationId": "CHN",
+          "startTime": "2022/09/21",
+          "attributes": {
+            "state.rate": 0.32230238632855635,
+            "default.rate": 0.00473341289388303,
+            "length": 0.054335563243477956,
+            "posterior": 0.3908,
+            "state.prob": 0.9912998976458547,
+            "height_mean": 0.3223023863285561,
+            "height_median": 0.0930794240555195,
+            "state.rate_median": 0.0930794240555195,
+            "default.rate_median": 0.0010516846160207177,
+            "length_median": 0.0549826588906488,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443510704",
+          "locationId": "KHM",
+          "startTime": "2023/01/02",
+          "attributes": {
+            "state.rate": 0.008219178082072242,
+            "default.rate": 0.3047512704930109,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.008219178082072242,
+            "height_median": 0.008219178082072204,
+            "state.rate_median": 0.008219178082072204,
+            "default.rate_median": 0.08316682002993173,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-239",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443499918",
+          "locationId": "VNM",
+          "startTime": "2023/01/10",
+          "attributes": {
+            "state.rate": 0.2192592676879113,
+            "default.rate": 0.024672830294639094,
+            "length": 0.05437432782164697,
+            "posterior": 0.9984,
+            "state.prob": 0.9941907051282052,
+            "height_mean": 0.21925926768791135,
+            "height_median": 0.0694764046426653,
+            "state.rate_median": 0.0694764046426653,
+            "default.rate_median": 0.007153435791190158,
+            "length_median": 0.054960787502947674,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964887256",
+          "locationId": "VNM",
+          "startTime": "2022/11/27",
+          "attributes": {
+            "state.rate": 0.33258297306291135,
+            "default.rate": 0.025127942488709355,
+            "length": 0.05437432782164697,
+            "posterior": 0.9984,
+            "state.prob": 0.9989983974358975,
+            "height_mean": 0.3325829730629128,
+            "height_median": 0.10524953931575945,
+            "state.rate_median": 0.10524953931575945,
+            "default.rate_median": 0.007801201342797999,
+            "length_median": 0.054960787502947674,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443410541",
+          "locationId": "VNM",
+          "startTime": "2023/04/14",
+          "attributes": {
+            "state.rate": 0.17858742633314265,
+            "default.rate": 0.08089058846422109,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.671,
+            "height_mean": 0.17858742633314129,
+            "height_median": 0.05194494675577939,
+            "state.rate_median": 0.05194494675577939,
+            "default.rate_median": 0.024515248949490802,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964917010",
+          "locationId": "VNM",
+          "startTime": "2022/12/11",
+          "attributes": {
+            "state.rate": 0.2988254424579444,
+            "default.rate": 0.024167964949260674,
+            "length": 0.0543088121287878,
+            "posterior": 0.9994,
+            "state.prob": 0.9921953171903142,
+            "height_mean": 0.2988254424579443,
+            "height_median": 0.09818313546064453,
+            "state.rate_median": 0.09818313546064453,
+            "default.rate_median": 0.007038724991550616,
+            "length_median": 0.05495836498563483,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964898604",
+          "locationId": "CHN",
+          "startTime": "2022/12/28",
+          "attributes": {
+            "state.rate": 0.00547945205471486,
+            "default.rate": 0.36162896195453226,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.00547945205471486,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.10603300852464248,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-309",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443502061",
+          "locationId": "THA",
+          "startTime": "2023/01/08",
+          "attributes": {
+            "state.rate": 0.2256320274228955,
+            "default.rate": 0.04931168651461929,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.979,
+            "height_mean": 0.22563202742289262,
+            "height_median": 0.06794207270574058,
+            "state.rate_median": 0.06794207270574058,
+            "default.rate_median": 0.014140377832563437,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964124030",
+          "locationId": "CHN",
+          "startTime": "2022/07/20",
+          "attributes": {
+            "state.rate": 0.13972602739727344,
+            "default.rate": 0.4114301949592663,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.13972602739727344,
+            "height_median": 0.13972602739727338,
+            "state.rate_median": 0.13972602739727338,
+            "default.rate_median": 0.047076382324621344,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-4",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964906227",
+          "locationId": "KHM",
+          "startTime": "2022/12/06",
+          "attributes": {
+            "state.rate": 0.27462139587284007,
+            "default.rate": 0.014679156772891186,
+            "length": 0.05446135276960354,
+            "posterior": 0.9968,
+            "state.prob": 0.5884831460674157,
+            "height_mean": 0.2746213958728397,
+            "height_median": 0.09665424088891686,
+            "state.rate_median": 0.09665424088891686,
+            "default.rate_median": 0.005889959193226595,
+            "length_median": 0.05496433168915911,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443488536",
+          "locationId": "CHN",
+          "startTime": "2023/02/24",
+          "attributes": {
+            "state.rate": 0.0027397260273574688,
+            "default.rate": 0.18993467673114398,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0027397260273574688,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.057369109255955786,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-447",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964917071",
+          "locationId": "VNM",
+          "startTime": "2022/12/30",
+          "attributes": {
+            "state.rate": 0.2146186586217393,
+            "default.rate": 0.004049926575483551,
+            "length": 0.05457617137210685,
+            "posterior": 0.3684,
+            "state.prob": 0.99728555917481,
+            "height_mean": 0.2146186586217406,
+            "height_median": 0.08843244625801874,
+            "state.rate_median": 0.08843244625801874,
+            "default.rate_median": 0.0011576257241927984,
+            "length_median": 0.05499081466489125,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443440335",
+          "locationId": "VNM",
+          "startTime": "2023/03/11",
+          "attributes": {
+            "state.rate": 0.05479452054783003,
+            "default.rate": 0.26354291908101374,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.05479452054783003,
+            "height_median": 0.05479452054782999,
+            "state.rate_median": 0.05479452054782999,
+            "default.rate_median": 0.047182939037351754,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "H-59",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964887189",
+          "locationId": "VNM",
+          "startTime": "2022/11/02",
+          "attributes": {
+            "state.rate": 0.2908406923348848,
+            "default.rate": 0.019954877281177785,
+            "length": 0.05460333873862421,
+            "posterior": 0.9942,
+            "state.prob": 0.924160128746731,
+            "height_mean": 0.29084069233488546,
+            "height_median": 0.1413922033641467,
+            "state.rate_median": 0.1413922033641467,
+            "default.rate_median": 0.0072764581223428715,
+            "length_median": 0.05496921010681316,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443502007",
+          "locationId": "THA",
+          "startTime": "2023/01/20",
+          "attributes": {
+            "state.rate": 0.013698630137014408,
+            "default.rate": 0.2622682103315871,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.013698630137014408,
+            "height_median": 0.013698630137014361,
+            "state.rate_median": 0.013698630137014361,
+            "default.rate_median": 0.07378910609692016,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-229",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964914898",
+          "locationId": "THA",
+          "startTime": "2022/12/19",
+          "attributes": {
+            "state.rate": 0.030136986301386146,
+            "default.rate": 0.2569367933755944,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.030136986301386146,
+            "height_median": 0.030136986301386087,
+            "state.rate_median": 0.030136986301386087,
+            "default.rate_median": 0.06201461320918818,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-128",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964887224",
+          "locationId": "VNM",
+          "startTime": "2022/11/16",
+          "attributes": {
+            "state.rate": 0.3633052992660153,
+            "default.rate": 0.03280483226417104,
+            "length": 0.05428706647221773,
+            "posterior": 0.9994,
+            "state.prob": 0.8825295177106264,
+            "height_mean": 0.3633052992660209,
+            "height_median": 0.10617034037739913,
+            "state.rate_median": 0.10617034037739913,
+            "default.rate_median": 0.008630405767544619,
+            "length_median": 0.054956875493309354,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964142414",
+          "locationId": "VNM",
+          "startTime": "2022/07/02",
+          "attributes": {
+            "state.rate": 0.4820528190860344,
+            "default.rate": 0.07060468098426914,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.9923984796959392,
+            "height_mean": 0.4820528190860368,
+            "height_median": 0.17182827248503135,
+            "state.rate_median": 0.17182827248503135,
+            "default.rate_median": 0.016586178953453073,
+            "length_median": 0.05495836498563483,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964855312",
+          "locationId": "THA",
+          "startTime": "2022/10/15",
+          "attributes": {
+            "state.rate": 0.21940540903484831,
+            "default.rate": 0.025760159955827942,
+            "length": 0.05430063533816418,
+            "posterior": 0.8088,
+            "state.prob": 0.7668150346191889,
+            "height_mean": 0.21940540903484834,
+            "height_median": 0.06679781061990778,
+            "state.rate_median": 0.06679781061990778,
+            "default.rate_median": 0.004082803815222427,
+            "length_median": 0.05496097730002007,
+            "state": "THA",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964898598",
+          "locationId": "CHN",
+          "startTime": "2022/12/22",
+          "attributes": {
+            "state.rate": 0.021917808219086597,
+            "default.rate": 0.3011802781236806,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.021917808219086597,
+            "height_median": 0.021917808219086538,
+            "state.rate_median": 0.021917808219086538,
+            "default.rate_median": 0.07698895581288279,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-130",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964917047",
+          "locationId": "VNM",
+          "startTime": "2022/12/27",
+          "attributes": {
+            "state.rate": 0.2519637686365147,
+            "default.rate": 0.0211266579454294,
+            "length": 0.05429784100512742,
+            "posterior": 0.9602,
+            "state.prob": 0.9891689231410122,
+            "height_mean": 0.2519637686365169,
+            "height_median": 0.07563092752283809,
+            "state.rate_median": 0.07563092752283809,
+            "default.rate_median": 0.0038265192455237546,
+            "length_median": 0.054959023270179805,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964906254",
+          "locationId": "KHM",
+          "startTime": "2022/12/12",
+          "attributes": {
+            "state.rate": 0.06849315068484436,
+            "default.rate": 0.3315945403787442,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.06849315068484436,
+            "height_median": 0.06849315068484432,
+            "state.rate_median": 0.06849315068484432,
+            "default.rate_median": 0.04402378869879518,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-32",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443412632",
+          "locationId": "THA",
+          "startTime": "2023/04/22",
+          "attributes": {
+            "state.rate": 0.03013698630138613,
+            "default.rate": 0.3977396827374107,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03013698630138613,
+            "height_median": 0.030136986301386087,
+            "state.rate_median": 0.030136986301386087,
+            "default.rate_median": 0.08101544645797183,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-101",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443510672",
+          "locationId": "KHM",
+          "startTime": "2023/01/13",
+          "attributes": {
+            "state.rate": 0.0136986301370144,
+            "default.rate": 0.32528623272303575,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0136986301370144,
+            "height_median": 0.013698630137014361,
+            "state.rate_median": 0.013698630137014361,
+            "default.rate_median": 0.08034827368886245,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-240",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964887225",
+          "locationId": "VNM",
+          "startTime": "2022/11/17",
+          "attributes": {
+            "state.rate": 0.3044101793732048,
+            "default.rate": 0.01880477846184025,
+            "length": 0.0544286844385364,
+            "posterior": 0.9974,
+            "state.prob": 0.9995989572889513,
+            "height_mean": 0.3044101793732068,
+            "height_median": 0.10273179446979197,
+            "state.rate_median": 0.10273179446979197,
+            "default.rate_median": 0.004548533288726467,
+            "length_median": 0.05496371664203992,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964914926",
+          "locationId": "THA",
+          "startTime": "2022/12/26",
+          "attributes": {
+            "state.rate": 0.021917808219086583,
+            "default.rate": 0.382935609516967,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.021917808219086583,
+            "height_median": 0.021917808219086538,
+            "state.rate_median": 0.021917808219086538,
+            "default.rate_median": 0.08904379022197823,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-159",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964142446",
+          "locationId": "VNM",
+          "startTime": "2022/07/13",
+          "attributes": {
+            "state.rate": 0.47391839205504194,
+            "default.rate": 0.09758144397178964,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9192,
+            "height_mean": 0.4739183920550388,
+            "height_median": 0.12750729834194868,
+            "state.rate_median": 0.12750729834194868,
+            "default.rate_median": 0.019979705563369213,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443361712",
+          "locationId": "KHM",
+          "startTime": "2023/06/18",
+          "attributes": {
+            "state.rate": 9.143241719300477E-17,
+            "default.rate": 0.17858742633314253,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.143241719300477E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.05194494675577937,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-478",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964887196",
+          "locationId": "VNM",
+          "startTime": "2022/11/09",
+          "attributes": {
+            "state.rate": 0.2062400124462572,
+            "default.rate": 0.18215494056943465,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.932,
+            "height_mean": 0.20624001244625684,
+            "height_median": 0.08058556543465935,
+            "state.rate_median": 0.08058556543465935,
+            "default.rate_median": 0.0486180633235075,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964916987",
+          "locationId": "VNM",
+          "startTime": "2022/12/09",
+          "attributes": {
+            "state.rate": 0.19223108801518476,
+            "default.rate": 0.02727593916850258,
+            "length": 0.05458145252115631,
+            "posterior": 0.9946,
+            "state.prob": 0.8027347677458274,
+            "height_mean": 0.1922310880151839,
+            "height_median": 0.08865236702127118,
+            "state.rate_median": 0.08865236702127118,
+            "default.rate_median": 0.012311181796540366,
+            "length_median": 0.05496844116991737,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964202028",
+          "locationId": "VNM",
+          "startTime": "2022/09/13",
+          "attributes": {
+            "state.rate": 0.3045698596657745,
+            "default.rate": 0.008409069044350535,
+            "length": 0.05429242704549585,
+            "posterior": 0.5244,
+            "state.prob": 0.998093058733791,
+            "height_mean": 0.30456985966577527,
+            "height_median": 0.09102052908073308,
+            "state.rate_median": 0.09102052908073308,
+            "default.rate_median": 0.0014931596451436616,
+            "length_median": 0.054920760445440614,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443488564",
+          "locationId": "CHN",
+          "startTime": "2023/02/17",
+          "attributes": {
+            "state.rate": 0.032876712328743535,
+            "default.rate": 0.2874837922657649,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.032876712328743535,
+            "height_median": 0.03287671232874348,
+            "state.rate_median": 0.03287671232874348,
+            "default.rate_median": 0.07267630636116304,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-124",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964202032",
+          "locationId": "VNM",
+          "startTime": "2022/09/17",
+          "attributes": {
+            "state.rate": 0.283439614749974,
+            "default.rate": 0.2774288079258496,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.493,
+            "height_mean": 0.28343961474997614,
+            "height_median": 0.13942704315899074,
+            "state.rate_median": 0.13942704315899074,
+            "default.rate_median": 0.025244067451880056,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964202058",
+          "locationId": "VNM",
+          "startTime": "2022/09/22",
+          "attributes": {
+            "state.rate": 0.28122169224288923,
+            "default.rate": 0.2581736452113129,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9326,
+            "height_mean": 0.28122169224288995,
+            "height_median": 0.09676099887009307,
+            "state.rate_median": 0.09676099887009307,
+            "default.rate_median": 0.05095752361815642,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964183554",
+          "locationId": "CHN",
+          "startTime": "2022/09/04",
+          "attributes": {
+            "state.rate": 0.016438356164371802,
+            "default.rate": 0.3061736149399284,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.016438356164371802,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.09543559610308447,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-245",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964887280",
+          "locationId": "VNM",
+          "startTime": "2022/11/30",
+          "attributes": {
+            "state.rate": 0.28930055264573135,
+            "default.rate": 0.052667853303699885,
+            "length": 0.05446135276960354,
+            "posterior": 0.9968,
+            "state.prob": 0.9652889245585875,
+            "height_mean": 0.28930055264573057,
+            "height_median": 0.10282311624694704,
+            "state.rate_median": 0.10282311624694704,
+            "default.rate_median": 0.018568124870235105,
+            "length_median": 0.05496433168915911,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443472242",
+          "locationId": "THA",
+          "startTime": "2023/02/15",
+          "attributes": {
+            "state.rate": 9.323652960802065E-17,
+            "default.rate": 0.49207016154893135,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.323652960802065E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.10648314320926491,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-386",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443442416",
+          "locationId": "THA",
+          "startTime": "2023/03/29",
+          "attributes": {
+            "state.rate": 9.920397836538086E-17,
+            "default.rate": 0.27699006742728494,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.920397836538086E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.06948553713058622,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-449",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1077383510",
+          "locationId": "VNM",
+          "startTime": "2021/11/04",
+          "attributes": {
+            "state.rate": 0.8480500981237443,
+            "default.rate": 0.0,
+            "posterior": 1.0,
+            "state.prob": 0.9488,
+            "height_mean": 0.8480500981237458,
+            "height_median": 0.21330518199496937,
+            "state.rate_median": 0.21330518199496937,
+            "state": "VNM",
+            "nodeName": "root"
+          }
+        },
+        {
+          "id": "1964191307",
+          "locationId": "KHM",
+          "startTime": "2022/09/28",
+          "attributes": {
+            "state.rate": 0.3236359026958136,
+            "default.rate": 0.19601069253523498,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.6782,
+            "height_mean": 0.32363590269581566,
+            "height_median": 0.10609708133911451,
+            "state.rate_median": 0.10609708133911451,
+            "default.rate_median": 0.045722230182964875,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964885106",
+          "locationId": "THA",
+          "startTime": "2022/11/18",
+          "attributes": {
+            "state.rate": 0.11506849315060218,
+            "default.rate": 0.1683711215993708,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.11506849315060218,
+            "height_median": 0.11506849315060211,
+            "state.rate_median": 0.11506849315060211,
+            "default.rate_median": 0.02435855000838863,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-9",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964898604",
+          "locationId": "CHN",
+          "startTime": "2022/12/28",
+          "attributes": {
+            "state.rate": 0.005479452054714853,
+            "default.rate": 0.1731098726714515,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714853,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.04693621815685038,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-342",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443331209",
+          "locationId": "LAO",
+          "startTime": "2023/07/05",
+          "attributes": {
+            "state.rate": 9.456879723757083E-17,
+            "default.rate": 0.313740539505972,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.456879723757083E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.08312495629407926,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-385",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964898566",
+          "locationId": "CHN",
+          "startTime": "2022/12/11",
+          "attributes": {
+            "state.rate": 0.0630136986301296,
+            "default.rate": 0.21820799361275928,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0630136986301296,
+            "height_median": 0.06301369863012954,
+            "state.rate_median": 0.06301369863012954,
+            "default.rate_median": 0.033747300239963536,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-47",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443451116",
+          "locationId": "KHM",
+          "startTime": "2023/03/08",
+          "attributes": {
+            "state.rate": 9.354184093979257E-17,
+            "default.rate": 0.4117590841306158,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.354184093979257E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.09071940385368032,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-514",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443451089",
+          "locationId": "KHM",
+          "startTime": "2023/03/14",
+          "attributes": {
+            "state.rate": 0.31195601572712245,
+            "default.rate": 0.053983671558015055,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.9903980796159232,
+            "height_mean": 0.31195601572712073,
+            "height_median": 0.08312481906483382,
+            "state.rate_median": 0.08312481906483382,
+            "default.rate_median": 0.014808597895950973,
+            "length_median": 0.05495836498563483,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443451061",
+          "locationId": "KHM",
+          "startTime": "2023/03/21",
+          "attributes": {
+            "state.rate": 0.016438356164371795,
+            "default.rate": 0.2688213391499688,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.016438356164371795,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.06695001153189895,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-212",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443472211",
+          "locationId": "THA",
+          "startTime": "2023/02/25",
+          "attributes": {
+            "state.rate": 0.052054794520472646,
+            "default.rate": 0.25099947953681073,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.052054794520472646,
+            "height_median": 0.0520547945204726,
+            "state.rate_median": 0.0520547945204726,
+            "default.rate_median": 0.04089889460644556,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-46",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443399158",
+          "locationId": "CHN",
+          "startTime": "2023/05/29",
+          "attributes": {
+            "state.rate": 0.0054794520547148525,
+            "default.rate": 0.31274783143753154,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0054794520547148525,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.08099368277627679,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-277",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443451056",
+          "locationId": "KHM",
+          "startTime": "2023/03/26",
+          "attributes": {
+            "state.rate": 0.005479452054714848,
+            "default.rate": 0.3241071660921609,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714848,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.08815396672903417,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-281",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443451090",
+          "locationId": "KHM",
+          "startTime": "2023/03/13",
+          "attributes": {
+            "state.rate": 0.04109589041081571,
+            "default.rate": 0.21221979945683248,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.04109589041081571,
+            "height_median": 0.041095890410815655,
+            "state.rate_median": 0.041095890410815655,
+            "default.rate_median": 0.03464325574484901,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-55",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443412689",
+          "locationId": "THA",
+          "startTime": "2023/04/07",
+          "attributes": {
+            "state.rate": 0.0410958904108157,
+            "default.rate": 0.3244226635713489,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0410958904108157,
+            "height_median": 0.041095890410815655,
+            "state.rate_median": 0.041095890410815655,
+            "default.rate_median": 0.06457862614056442,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-72",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964917014",
+          "locationId": "VNM",
+          "startTime": "2022/12/15",
+          "attributes": {
+            "state.rate": 0.2832765834814615,
+            "default.rate": 0.037077953977475764,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.9771954390878176,
+            "height_mean": 0.28327658348146445,
+            "height_median": 0.08338799347345474,
+            "state.rate_median": 0.08338799347345474,
+            "default.rate_median": 0.009203900709056662,
+            "length_median": 0.05495836498563483,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964898573",
+          "locationId": "CHN",
+          "startTime": "2022/12/18",
+          "attributes": {
+            "state.rate": 0.24716402425824355,
+            "default.rate": 0.06027073736083727,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.8405681136227245,
+            "height_mean": 0.24716402425824519,
+            "height_median": 0.07870262740609191,
+            "state.rate_median": 0.07870262740609191,
+            "default.rate_median": 0.013079495448198739,
+            "length_median": 0.05495836498563483,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443509894",
+          "locationId": "LAO",
+          "startTime": "2023/01/24",
+          "attributes": {
+            "state.rate": 0.002739726027357458,
+            "default.rate": 0.2472562402372578,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.002739726027357458,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.0754475002014561,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-370",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964142414",
+          "locationId": "VNM",
+          "startTime": "2022/07/02",
+          "attributes": {
+            "state.rate": 0.1868211053709484,
+            "default.rate": 0.002028922547449584,
+            "length": 0.05500460014342998,
+            "posterior": 0.9614,
+            "state.prob": 0.9997919700436863,
+            "height_mean": 0.18682110537094754,
+            "height_median": 0.18664690962700126,
+            "state.rate_median": 0.18664690962700126,
+            "default.rate_median": 0.0016986935017196114,
+            "length_median": 0.0549853355100288,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964082834",
+          "locationId": "VNM",
+          "startTime": "2022/05/04",
+          "attributes": {
+            "state.rate": 0.34970679399007615,
+            "default.rate": 0.0428078519466918,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.8694,
+            "height_mean": 0.34970679399007415,
+            "height_median": 0.11819722884266018,
+            "state.rate_median": 0.11819722884266018,
+            "default.rate_median": 0.00940348960066531,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964838958",
+          "locationId": "CHN",
+          "startTime": "2022/10/06",
+          "attributes": {
+            "state.rate": 0.24349442349511677,
+            "default.rate": 0.06470161149611564,
+            "length": 0.05432011761758904,
+            "posterior": 0.9994,
+            "state.prob": 0.9585751450870522,
+            "height_mean": 0.24349442349511718,
+            "height_median": 0.07126439854614888,
+            "state.rate_median": 0.07126439854614888,
+            "default.rate_median": 0.01688876754903458,
+            "length_median": 0.05495882667486714,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964201995",
+          "locationId": "VNM",
+          "startTime": "2022/09/01",
+          "attributes": {
+            "state.rate": 0.34584648160142506,
+            "default.rate": 0.04290622652625209,
+            "length": 0.05440693174985306,
+            "posterior": 0.9978,
+            "state.prob": 0.9609140108238123,
+            "height_mean": 0.34584648160142717,
+            "height_median": 0.11250568310394046,
+            "state.rate_median": 0.11250568310394046,
+            "default.rate_median": 0.011573261008584246,
+            "length_median": 0.054962232285902336,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964887280",
+          "locationId": "VNM",
+          "startTime": "2022/11/30",
+          "attributes": {
+            "state.rate": 0.21286191541101407,
+            "default.rate": 0.008548064473469803,
+            "length": 0.054601641160682904,
+            "posterior": 0.9908,
+            "state.prob": 0.7634234961647154,
+            "height_mean": 0.21286191541101532,
+            "height_median": 0.10644483823917586,
+            "state.rate_median": 0.10644483823917586,
+            "default.rate_median": 0.0034834543829756134,
+            "length_median": 0.054969341552812676,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964172242",
+          "locationId": "VNM",
+          "startTime": "2022/08/18",
+          "attributes": {
+            "state.rate": 0.36710841400924715,
+            "default.rate": 0.07997886546549518,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9762,
+            "height_mean": 0.3671084140092483,
+            "height_median": 0.11151246057935726,
+            "state.rate_median": 0.11151246057935726,
+            "default.rate_median": 0.017175508803255857,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964887225",
+          "locationId": "VNM",
+          "startTime": "2022/11/17",
+          "attributes": {
+            "state.rate": 0.3649178903881123,
+            "default.rate": 0.02271751394842476,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.9587917583516703,
+            "height_mean": 0.3649178903881111,
+            "height_median": 0.10686052324888946,
+            "state.rate_median": 0.10686052324888946,
+            "default.rate_median": 0.006200806375029538,
+            "length_median": 0.05495836498563483,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964917040",
+          "locationId": "VNM",
+          "startTime": "2022/12/20",
+          "attributes": {
+            "state.rate": 0.24071730446390766,
+            "default.rate": 0.009381468065897515,
+            "length": 0.054445528259530244,
+            "posterior": 0.8758,
+            "state.prob": 0.9984014615208952,
+            "height_mean": 0.24071730446390754,
+            "height_median": 0.08649310862595724,
+            "state.rate_median": 0.08649310862595724,
+            "default.rate_median": 0.0026510020895774283,
+            "length_median": 0.05497040058520011,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443488568",
+          "locationId": "CHN",
+          "startTime": "2023/02/13",
+          "attributes": {
+            "state.rate": 0.005479452054714849,
+            "default.rate": 0.2586478717170786,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714849,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.07229086338260735,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-322",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443442452",
+          "locationId": "THA",
+          "startTime": "2023/03/14",
+          "attributes": {
+            "state.rate": 0.0027397260273574683,
+            "default.rate": 0.33521012066898415,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0027397260273574683,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.09380557332977586,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-481",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964101931",
+          "locationId": "KHM",
+          "startTime": "2022/06/25",
+          "attributes": {
+            "state.rate": 0.5801951952048546,
+            "default.rate": 0.14375733947122316,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9954,
+            "height_mean": 0.5801951952048473,
+            "height_median": 0.16056695860348208,
+            "state.rate_median": 0.16056695860348208,
+            "default.rate_median": 0.04431552308768191,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964846707",
+          "locationId": "KHM",
+          "startTime": "2022/10/26",
+          "attributes": {
+            "state.rate": 0.24672846384716537,
+            "default.rate": 0.02628365301596478,
+            "length": 0.05429987803025492,
+            "posterior": 0.9856,
+            "state.prob": 0.7564935064935064,
+            "height_mean": 0.24672846384716488,
+            "height_median": 0.07808976655555383,
+            "state.rate_median": 0.07808976655555383,
+            "default.rate_median": 0.008751055529546664,
+            "length_median": 0.054960787502947674,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964112629",
+          "locationId": "VNM",
+          "startTime": "2022/06/08",
+          "attributes": {
+            "state.rate": 0.2553958218553519,
+            "default.rate": 0.09579821902591411,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9204,
+            "height_mean": 0.25539582185535165,
+            "height_median": 0.07994847646527814,
+            "state.rate_median": 0.07994847646527814,
+            "default.rate_median": 0.033143651667018555,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964887190",
+          "locationId": "VNM",
+          "startTime": "2022/11/03",
+          "attributes": {
+            "state.rate": 0.14433536097246677,
+            "default.rate": 0.19210348858254842,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.8026,
+            "height_mean": 0.14433536097246574,
+            "height_median": 0.05769174300294741,
+            "state.rate_median": 0.05769174300294741,
+            "default.rate_median": 0.06610089772268202,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443450341",
+          "locationId": "LAO",
+          "startTime": "2023/03/16",
+          "attributes": {
+            "state.rate": 0.002739726027357471,
+            "default.rate": 0.2903285014957829,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.002739726027357471,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.0840818238291238,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-343",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443451061",
+          "locationId": "KHM",
+          "startTime": "2023/03/21",
+          "attributes": {
+            "state.rate": 0.01917808219172918,
+            "default.rate": 0.34397881321419216,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.01917808219172918,
+            "height_median": 0.019178082191729146,
+            "state.rate_median": 0.019178082191729146,
+            "default.rate_median": 0.08699992835373055,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-197",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443458773",
+          "locationId": "CHN",
+          "startTime": "2023/03/17",
+          "attributes": {
+            "state.rate": 0.0356164383561009,
+            "default.rate": 0.17996700929748607,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0356164383561009,
+            "height_median": 0.03561643835610087,
+            "state.rate_median": 0.03561643835610087,
+            "default.rate_median": 0.032445424513482486,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-129",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443499916",
+          "locationId": "VNM",
+          "startTime": "2023/01/12",
+          "attributes": {
+            "state.rate": 0.21558344765358783,
+            "default.rate": 0.04171128497925946,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9366,
+            "height_mean": 0.21558344765358756,
+            "height_median": 0.06806186286958335,
+            "state.rate_median": 0.06806186286958335,
+            "default.rate_median": 0.011551114452526219,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964846676",
+          "locationId": "KHM",
+          "startTime": "2022/10/16",
+          "attributes": {
+            "state.rate": 0.27479506121464,
+            "default.rate": 0.04730343064504337,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.6773354670934186,
+            "height_mean": 0.27479506121464087,
+            "height_median": 0.08751799738253511,
+            "state.rate_median": 0.08751799738253511,
+            "default.rate_median": 0.01851113675555803,
+            "length_median": 0.05495836498563483,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964142506",
+          "locationId": "VNM",
+          "startTime": "2022/07/31",
+          "attributes": {
+            "state.rate": 0.43155035674013376,
+            "default.rate": 0.07731064660627361,
+            "length": 0.05440693174985306,
+            "posterior": 0.9978,
+            "state.prob": 0.996592503507717,
+            "height_mean": 0.4315503567401405,
+            "height_median": 0.14044373614834318,
+            "state.rate_median": 0.14044373614834318,
+            "default.rate_median": 0.014766189458678997,
+            "length_median": 0.054962232285902336,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964914895",
+          "locationId": "THA",
+          "startTime": "2022/12/16",
+          "attributes": {
+            "state.rate": 0.28668633343219385,
+            "default.rate": 0.07823155695591759,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.9847969593918784,
+            "height_mean": 0.2866863334321906,
+            "height_median": 0.08578006013863501,
+            "state.rate_median": 0.08578006013863501,
+            "default.rate_median": 0.021010765462875974,
+            "length_median": 0.05495836498563483,
+            "state": "THA",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964112656",
+          "locationId": "VNM",
+          "startTime": "2022/06/14",
+          "attributes": {
+            "state.rate": 0.23757327174917983,
+            "default.rate": 0.055326508203542256,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9864,
+            "height_mean": 0.23757327174918283,
+            "height_median": 0.07873641172167221,
+            "state.rate_median": 0.07873641172167221,
+            "default.rate_median": 0.016762757687889922,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443510699",
+          "locationId": "KHM",
+          "startTime": "2023/01/07",
+          "attributes": {
+            "state.rate": 0.37529478660958315,
+            "default.rate": 0.03444199794062508,
+            "length": 0.054330949006935074,
+            "posterior": 0.9992,
+            "state.prob": 0.993795036028823,
+            "height_mean": 0.3752947866095809,
+            "height_median": 0.0992510414740882,
+            "state.rate_median": 0.0992510414740882,
+            "default.rate_median": 0.008393508295671807,
+            "length_median": 0.05495892497252347,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443502065",
+          "locationId": "THA",
+          "startTime": "2023/01/04",
+          "attributes": {
+            "state.rate": 0.05753424657518742,
+            "default.rate": 0.26592252105625364,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.05753424657518742,
+            "height_median": 0.05753424657518738,
+            "state.rate_median": 0.05753424657518738,
+            "default.rate_median": 0.04856283476392714,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-61",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443510644",
+          "locationId": "KHM",
+          "startTime": "2023/01/20",
+          "attributes": {
+            "state.rate": 0.25863917879644144,
+            "default.rate": 0.020884264971539078,
+            "length": 0.05432011761758904,
+            "posterior": 0.9994,
+            "state.prob": 0.9973984390634381,
+            "height_mean": 0.2586391787964422,
+            "height_median": 0.07993643828144592,
+            "state.rate_median": 0.07993643828144592,
+            "default.rate_median": 0.00521916427503849,
+            "length_median": 0.05495882667486714,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964906284",
+          "locationId": "KHM",
+          "startTime": "2022/12/21",
+          "attributes": {
+            "state.rate": 0.2780160128961174,
+            "default.rate": 0.02573761731248524,
+            "length": 0.05440693174985306,
+            "posterior": 0.9978,
+            "state.prob": 0.9993986770895971,
+            "height_mean": 0.27801601289611233,
+            "height_median": 0.10328306328139979,
+            "state.rate_median": 0.10328306328139979,
+            "default.rate_median": 0.0058119744337806895,
+            "length_median": 0.054962232285902336,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443451059",
+          "locationId": "KHM",
+          "startTime": "2023/03/23",
+          "attributes": {
+            "state.rate": 0.016438356164371812,
+            "default.rate": 0.28446023501603784,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.016438356164371812,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.08174602614280782,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-169",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964876496",
+          "locationId": "KHM",
+          "startTime": "2022/11/24",
+          "attributes": {
+            "state.rate": 0.09589041095887305,
+            "default.rate": 0.1875492037910999,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.09589041095887305,
+            "height_median": 0.09589041095887299,
+            "state.rate_median": 0.09589041095887299,
+            "default.rate_median": 0.04353663220011775,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-14",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964153792",
+          "locationId": "CHN",
+          "startTime": "2022/08/12",
+          "attributes": {
+            "state.rate": 0.3942405914183699,
+            "default.rate": 0.018428480786239987,
+            "length": 0.05432011761758904,
+            "posterior": 0.9994,
+            "state.prob": 0.9811887132279368,
+            "height_mean": 0.3942405914183672,
+            "height_median": 0.11095856728504054,
+            "state.rate_median": 0.11095856728504054,
+            "default.rate_median": 0.0043000287249417846,
+            "length_median": 0.05495882667486714,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964877178",
+          "locationId": "LAO",
+          "startTime": "2022/11/02",
+          "attributes": {
+            "state.rate": 0.4099432524189584,
+            "default.rate": 0.07230764877757971,
+            "length": 0.05429422584786675,
+            "posterior": 0.9938,
+            "state.prob": 0.8112296236667338,
+            "height_mean": 0.4099432524189575,
+            "height_median": 0.1348918315528573,
+            "state.rate_median": 0.1348918315528573,
+            "default.rate_median": 0.0061475049202228405,
+            "length_median": 0.05495836498563483,
+            "state": "LAO",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964877181",
+          "locationId": "LAO",
+          "startTime": "2022/11/05",
+          "attributes": {
+            "state.rate": 0.1397260273972734,
+            "default.rate": 0.34277808167514506,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.1397260273972734,
+            "height_median": 0.13972602739727338,
+            "state.rate_median": 0.13972602739727338,
+            "default.rate_median": 0.03210420678843445,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-3",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443480911",
+          "locationId": "KHM",
+          "startTime": "2023/02/04",
+          "attributes": {
+            "state.rate": 0.21130246918060977,
+            "default.rate": 0.009214241474753219,
+            "length": 0.05425271465868328,
+            "posterior": 0.8856,
+            "state.prob": 0.998193315266486,
+            "height_mean": 0.21130246918061044,
+            "height_median": 0.06399899018598848,
+            "state.rate_median": 0.06399899018598848,
+            "default.rate_median": 0.0022404887245601364,
+            "length_median": 0.054936418926433195,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964917013",
+          "locationId": "VNM",
+          "startTime": "2022/12/14",
+          "attributes": {
+            "state.rate": 0.28918582205528465,
+            "default.rate": 0.09534442643751839,
+            "length": 0.054352623131712095,
+            "posterior": 0.9988,
+            "state.prob": 0.9913896676011213,
+            "height_mean": 0.28918582205528626,
+            "height_median": 0.0936312381491659,
+            "state.rate_median": 0.0936312381491659,
+            "default.rate_median": 0.024076447110046535,
+            "length_median": 0.05495937279215881,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443472244",
+          "locationId": "THA",
+          "startTime": "2023/02/13",
+          "attributes": {
+            "state.rate": 0.00547945205471486,
+            "default.rate": 0.31346016395261683,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.00547945205471486,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.09744317138888296,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-307",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964917016",
+          "locationId": "VNM",
+          "startTime": "2022/12/17",
+          "attributes": {
+            "state.rate": 0.25029535687308463,
+            "default.rate": 0.029979475056961514,
+            "length": 0.054330949006935074,
+            "posterior": 0.9992,
+            "state.prob": 0.9747798238590872,
+            "height_mean": 0.25029535687308513,
+            "height_median": 0.08007899083815882,
+            "state.rate_median": 0.08007899083815882,
+            "default.rate_median": 0.006993504480448644,
+            "length_median": 0.05495892497252347,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964868808",
+          "locationId": "CHN",
+          "startTime": "2022/11/23",
+          "attributes": {
+            "state.rate": 0.2322242927621464,
+            "default.rate": 0.1498916351133178,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.6148,
+            "height_mean": 0.23222429276214743,
+            "height_median": 0.07905196547291929,
+            "state.rate_median": 0.07905196547291929,
+            "default.rate_median": 0.0341919068595005,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443509894",
+          "locationId": "LAO",
+          "startTime": "2023/01/24",
+          "attributes": {
+            "state.rate": 0.1815867969563889,
+            "default.rate": 0.0339966506971989,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9028,
+            "height_mean": 0.181586796956389,
+            "height_median": 0.05726520688574538,
+            "state.rate_median": 0.05726520688574538,
+            "default.rate_median": 0.010701938235953012,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964857434",
+          "locationId": "VNM",
+          "startTime": "2022/10/17",
+          "attributes": {
+            "state.rate": 0.21179003822832887,
+            "default.rate": 0.008559753742859975,
+            "length": 0.05421208204524311,
+            "posterior": 0.7898,
+            "state.prob": 0.9929095973664219,
+            "height_mean": 0.21179003822833012,
+            "height_median": 0.061230557399285124,
+            "state.rate_median": 0.061230557399285124,
+            "default.rate_median": 0.0015305120244698822,
+            "length_median": 0.05495126916040447,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964916985",
+          "locationId": "VNM",
+          "startTime": "2022/12/07",
+          "attributes": {
+            "state.rate": 0.2734452680264357,
+            "default.rate": 0.02827287957289768,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.8708,
+            "height_mean": 0.27344526802643493,
+            "height_median": 0.09362645772677525,
+            "state.rate_median": 0.09362645772677525,
+            "default.rate_median": 0.006937576365240901,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443442423",
+          "locationId": "THA",
+          "startTime": "2023/03/22",
+          "attributes": {
+            "state.rate": 0.021917808219086565,
+            "default.rate": 0.22895321315933356,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.021917808219086565,
+            "height_median": 0.021917808219086538,
+            "state.rate_median": 0.021917808219086538,
+            "default.rate_median": 0.0565557232891705,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-152",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964153824",
+          "locationId": "CHN",
+          "startTime": "2022/08/23",
+          "attributes": {
+            "state.rate": 0.04931506849311525,
+            "default.rate": 0.30039172549696086,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.04931506849311525,
+            "height_median": 0.049315068493115205,
+            "state.rate_median": 0.049315068493115205,
+            "default.rate_median": 0.06888216034954497,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-60",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964153760",
+          "locationId": "CHN",
+          "startTime": "2022/08/01",
+          "attributes": {
+            "state.rate": 0.4218564784995834,
+            "default.rate": 0.04472792160558165,
+            "length": 0.05430929577147034,
+            "posterior": 0.9996,
+            "state.prob": 0.9797919167667066,
+            "height_mean": 0.4218564784995812,
+            "height_median": 0.11618049079036466,
+            "state.rate_median": 0.11618049079036466,
+            "default.rate_median": 0.011206609958059416,
+            "length_median": 0.054958595830250985,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443361745",
+          "locationId": "KHM",
+          "startTime": "2023/06/06",
+          "attributes": {
+            "state.rate": 0.03287671232874352,
+            "default.rate": 0.22660130246862176,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03287671232874352,
+            "height_median": 0.03287671232874348,
+            "state.rate_median": 0.03287671232874348,
+            "default.rate_median": 0.04373486864901626,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-146",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964112688",
+          "locationId": "VNM",
+          "startTime": "2022/06/25",
+          "attributes": {
+            "state.rate": 0.20593738754949895,
+            "default.rate": 0.010423105115301213,
+            "length": 0.05490112768780472,
+            "posterior": 0.6254,
+            "state.prob": 0.9507515190278222,
+            "height_mean": 0.2059373875494984,
+            "height_median": 0.20566701823777336,
+            "state.rate_median": 0.20566701823777336,
+            "default.rate_median": 0.010089208863846455,
+            "length_median": 0.05489969798581235,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964906289",
+          "locationId": "KHM",
+          "startTime": "2022/12/26",
+          "attributes": {
+            "state.rate": 0.019178082191729194,
+            "default.rate": 0.17717952607428802,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.019178082191729194,
+            "height_median": 0.019178082191729146,
+            "state.rate_median": 0.019178082191729146,
+            "default.rate_median": 0.042373117924452294,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-190",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443420549",
+          "locationId": "LAO",
+          "startTime": "2023/04/17",
+          "attributes": {
+            "state.rate": 0.013698630137014408,
+            "default.rate": 0.25281094148172545,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.013698630137014408,
+            "height_median": 0.013698630137014361,
+            "state.rate_median": 0.013698630137014361,
+            "default.rate_median": 0.0662413808621512,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-248",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964906254",
+          "locationId": "KHM",
+          "startTime": "2022/12/12",
+          "attributes": {
+            "state.rate": 0.3650141795961374,
+            "default.rate": 0.020069625756383724,
+            "length": 0.054287210182871776,
+            "posterior": 0.9,
+            "state.prob": 0.9984444444444445,
+            "height_mean": 0.3650141795961359,
+            "height_median": 0.10542562494244236,
+            "state.rate_median": 0.10542562494244236,
+            "default.rate_median": 0.0026799697518830948,
+            "length_median": 0.05495482742408372,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443510670",
+          "locationId": "KHM",
+          "startTime": "2023/01/15",
+          "attributes": {
+            "state.rate": 0.27146119922683254,
+            "default.rate": 0.06309418571348702,
+            "length": 0.05432011761758904,
+            "posterior": 0.9994,
+            "state.prob": 0.995597358415049,
+            "height_mean": 0.27146119922682976,
+            "height_median": 0.08232150516042411,
+            "state.rate_median": 0.08232150516042411,
+            "default.rate_median": 0.015895065143497145,
+            "length_median": 0.05495882667486714,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964898538",
+          "locationId": "CHN",
+          "startTime": "2022/12/04",
+          "attributes": {
+            "state.rate": 0.2021565152695325,
+            "default.rate": 0.030067777492614533,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.6226,
+            "height_mean": 0.20215651526953188,
+            "height_median": 0.07320734375804887,
+            "state.rate_median": 0.07320734375804887,
+            "default.rate_median": 0.005566717970236855,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964201997",
+          "locationId": "VNM",
+          "startTime": "2022/09/03",
+          "attributes": {
+            "state.rate": 0.3230980863427671,
+            "default.rate": 0.08507530462920183,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.969,
+            "height_mean": 0.32309808634276593,
+            "height_median": 0.09890676403196931,
+            "state.rate_median": 0.09890676403196931,
+            "default.rate_median": 0.018651674487200086,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964857464",
+          "locationId": "VNM",
+          "startTime": "2022/10/26",
+          "attributes": {
+            "state.rate": 0.17858932472616643,
+            "default.rate": 0.06948764429359766,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9688,
+            "height_mean": 0.17858932472616615,
+            "height_median": 0.05241567021156518,
+            "state.rate_median": 0.05241567021156518,
+            "default.rate_median": 0.021057936926394172,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964917018",
+          "locationId": "VNM",
+          "startTime": "2022/12/19",
+          "attributes": {
+            "state.rate": 0.19267440275850145,
+            "default.rate": 0.05270449935459819,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9818,
+            "height_mean": 0.19267440275850167,
+            "height_median": 0.06010883528331318,
+            "state.rate_median": 0.06010883528331318,
+            "default.rate_median": 0.014910772035256321,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443380722",
+          "locationId": "VNM",
+          "startTime": "2023/05/21",
+          "attributes": {
+            "state.rate": 0.0027397260273574584,
+            "default.rate": 0.38573244935493006,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0027397260273574584,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.09651390092066225,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "H-318",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443480848",
+          "locationId": "KHM",
+          "startTime": "2023/02/25",
+          "attributes": {
+            "state.rate": 0.052054794520472646,
+            "default.rate": 0.20686537162711138,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.052054794520472646,
+            "height_median": 0.0520547945204726,
+            "state.rate_median": 0.0520547945204726,
+            "default.rate_median": 0.028031079912326,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-64",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443458808",
+          "locationId": "CHN",
+          "startTime": "2023/03/03",
+          "attributes": {
+            "state.rate": 0.03561643835610092,
+            "default.rate": 0.2581913369148233,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03561643835610092,
+            "height_median": 0.03561643835610087,
+            "state.rate_median": 0.03561643835610087,
+            "default.rate_median": 0.05311664038999816,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-100",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964906288",
+          "locationId": "KHM",
+          "startTime": "2022/12/25",
+          "attributes": {
+            "state.rate": 0.002739726027357471,
+            "default.rate": 0.14159563494510916,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.002739726027357471,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.05495201697558998,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-387",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443458744",
+          "locationId": "CHN",
+          "startTime": "2023/03/25",
+          "attributes": {
+            "state.rate": 0.00821917808207224,
+            "default.rate": 0.352022788331672,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.00821917808207224,
+            "height_median": 0.008219178082072204,
+            "state.rate_median": 0.008219178082072204,
+            "default.rate_median": 0.0969824226475055,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-333",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964082865",
+          "locationId": "VNM",
+          "startTime": "2022/05/14",
+          "attributes": {
+            "state.rate": 0.3226119711043002,
+            "default.rate": 0.027094822885776408,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.8646,
+            "height_mean": 0.322611971104302,
+            "height_median": 0.1118739522674562,
+            "state.rate_median": 0.1118739522674562,
+            "default.rate_median": 0.006156896285158683,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964183558",
+          "locationId": "CHN",
+          "startTime": "2022/09/08",
+          "attributes": {
+            "state.rate": 0.005479452054714865,
+            "default.rate": 0.232093819694465,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714865,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.07325695966695739,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-288",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964916982",
+          "locationId": "VNM",
+          "startTime": "2022/12/04",
+          "attributes": {
+            "state.rate": 0.2571840796281614,
+            "default.rate": 0.01136654255390327,
+            "length": 0.054448119377624254,
+            "posterior": 0.9952,
+            "state.prob": 0.9963826366559485,
+            "height_mean": 0.25718407962816153,
+            "height_median": 0.09068947941167958,
+            "state.rate_median": 0.09068947941167958,
+            "default.rate_median": 0.00391431015280478,
+            "length_median": 0.05496204248882994,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964898567",
+          "locationId": "CHN",
+          "startTime": "2022/12/12",
+          "attributes": {
+            "state.rate": 0.03835616438345831,
+            "default.rate": 0.10597919658900848,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03835616438345831,
+            "height_median": 0.03835616438345826,
+            "state.rate_median": 0.03835616438345826,
+            "default.rate_median": 0.01933557861948914,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-104",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964906258",
+          "locationId": "KHM",
+          "startTime": "2022/12/16",
+          "attributes": {
+            "state.rate": 0.38089633410757967,
+            "default.rate": 0.02440985338824802,
+            "length": 0.05437486191260847,
+            "posterior": 0.9982,
+            "state.prob": 0.9939891805249449,
+            "height_mean": 0.3808963341075802,
+            "height_median": 0.11113918395122023,
+            "state.rate_median": 0.11113918395122023,
+            "default.rate_median": 0.0054699913718109505,
+            "length_median": 0.05496185269175753,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964887257",
+          "locationId": "VNM",
+          "startTime": "2022/11/28",
+          "attributes": {
+            "state.rate": 0.2998334846548534,
+            "default.rate": 0.024673375276344913,
+            "length": 0.054298364839594236,
+            "posterior": 0.9996,
+            "state.prob": 0.9971988795518207,
+            "height_mean": 0.29983348465485243,
+            "height_median": 0.09294987685462816,
+            "state.rate_median": 0.09294987685462816,
+            "default.rate_median": 0.0037167459046423545,
+            "length_median": 0.054958595830250985,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443480880",
+          "locationId": "KHM",
+          "startTime": "2023/02/14",
+          "attributes": {
+            "state.rate": 0.002739726027357462,
+            "default.rate": 0.4908046664653687,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.002739726027357462,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.08594717959270767,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-301",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443488532",
+          "locationId": "CHN",
+          "startTime": "2023/02/28",
+          "attributes": {
+            "state.rate": 0.019178082191729205,
+            "default.rate": 0.33005183455212034,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.019178082191729205,
+            "height_median": 0.019178082191729146,
+            "state.rate_median": 0.019178082191729146,
+            "default.rate_median": 0.08358263063888732,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-246",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443390757",
+          "locationId": "LAO",
+          "startTime": "2023/05/18",
+          "attributes": {
+            "state.rate": 0.005479452054714853,
+            "default.rate": 0.3479100337671298,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714853,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.08397307759444884,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-354",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443518392",
+          "locationId": "CHN",
+          "startTime": "2023/01/01",
+          "attributes": {
+            "state.rate": 0.005479452054714853,
+            "default.rate": 0.3097279454781243,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714853,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.08631689615814102,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-347",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964887192",
+          "locationId": "VNM",
+          "startTime": "2022/11/05",
+          "attributes": {
+            "state.rate": 0.16774653292847216,
+            "default.rate": 0.008476591925694015,
+            "length": 0.054801039739330294,
+            "posterior": 0.9906,
+            "state.prob": 0.9975772259236826,
+            "height_mean": 0.16774653292847133,
+            "height_median": 0.13407698506837806,
+            "state.rate_median": 0.13407698506837806,
+            "default.rate_median": 0.006112480873820048,
+            "length_median": 0.054974341564452474,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964202031",
+          "locationId": "VNM",
+          "startTime": "2022/09/16",
+          "attributes": {
+            "state.rate": 0.2870737796769811,
+            "default.rate": 0.08003463433226546,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9668,
+            "height_mean": 0.28707377967698156,
+            "height_median": 0.09215159951057426,
+            "state.rate_median": 0.09215159951057426,
+            "default.rate_median": 0.018906486493958576,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443450309",
+          "locationId": "LAO",
+          "startTime": "2023/03/27",
+          "attributes": {
+            "state.rate": 0.008219178082072242,
+            "default.rate": 0.21741284934082297,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.008219178082072242,
+            "height_median": 0.008219178082072204,
+            "state.rate_median": 0.008219178082072204,
+            "default.rate_median": 0.059722894623668366,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-314",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964917041",
+          "locationId": "VNM",
+          "startTime": "2022/12/21",
+          "attributes": {
+            "state.rate": 0.1577742001088577,
+            "default.rate": 0.005915392719816277,
+            "length": 0.05473393580545683,
+            "posterior": 0.9882,
+            "state.prob": 0.9951426836672739,
+            "height_mean": 0.1577742001088583,
+            "height_median": 0.10285185771336826,
+            "state.rate_median": 0.10285185771336826,
+            "default.rate_median": 0.003927524832558774,
+            "length_median": 0.05497040058520011,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964876435",
+          "locationId": "KHM",
+          "startTime": "2022/11/05",
+          "attributes": {
+            "state.rate": 0.3399981666041398,
+            "default.rate": 0.08307171157084982,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.8134,
+            "height_mean": 0.3399981666041438,
+            "height_median": 0.1163269773784749,
+            "state.rate_median": 0.1163269773784749,
+            "default.rate_median": 0.017783500628293356,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964202028",
+          "locationId": "VNM",
+          "startTime": "2022/09/13",
+          "attributes": {
+            "state.rate": 0.3129704485750831,
+            "default.rate": 0.0709888441529278,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9576,
+            "height_mean": 0.31297044857508177,
+            "height_median": 0.09138599811200393,
+            "state.rate_median": 0.09138599811200393,
+            "default.rate_median": 0.0181981756798833,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443440327",
+          "locationId": "VNM",
+          "startTime": "2023/03/19",
+          "attributes": {
+            "state.rate": 0.25154404640111094,
+            "default.rate": 0.075885258262887,
+            "length": 0.0543417840393903,
+            "posterior": 0.999,
+            "state.prob": 0.9681681681681682,
+            "height_mean": 0.2515440464011087,
+            "height_median": 0.07493562930650977,
+            "state.rate_median": 0.07493562930650977,
+            "default.rate_median": 0.021189920550978958,
+            "length_median": 0.054959023270179805,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443450314",
+          "locationId": "LAO",
+          "startTime": "2023/03/22",
+          "attributes": {
+            "state.rate": 0.016438356164371788,
+            "default.rate": 0.346718001927976,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.016438356164371788,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.08973965438108794,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-180",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443480162",
+          "locationId": "LAO",
+          "startTime": "2023/02/07",
+          "attributes": {
+            "state.rate": 0.049315068493115254,
+            "default.rate": 0.25438490784961626,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.049315068493115254,
+            "height_median": 0.049315068493115205,
+            "state.rate_median": 0.049315068493115205,
+            "default.rate_median": 0.044734914427264426,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-75",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964917047",
+          "locationId": "VNM",
+          "startTime": "2022/12/27",
+          "attributes": {
+            "state.rate": 0.2576066140991975,
+            "default.rate": 0.00936107599356689,
+            "length": 0.05425032985773259,
+            "posterior": 0.832,
+            "state.prob": 0.9574519230769231,
+            "height_mean": 0.2576066140991968,
+            "height_median": 0.07814417584345323,
+            "state.rate_median": 0.07814417584345323,
+            "default.rate_median": 0.0017626576678558686,
+            "length_median": 0.05496895708436478,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1443410544",
+          "locationId": "VNM",
+          "startTime": "2023/04/11",
+          "attributes": {
+            "state.rate": 0.030136986301386122,
+            "default.rate": 0.2506339446819208,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.030136986301386122,
+            "height_median": 0.030136986301386087,
+            "state.rate_median": 0.030136986301386087,
+            "default.rate_median": 0.052188589354387895,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "H-112",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1443518360",
+          "locationId": "CHN",
+          "startTime": "2023/01/12",
+          "attributes": {
+            "state.rate": 0.03287671232874353,
+            "default.rate": 0.17336330011751347,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03287671232874353,
+            "height_median": 0.03287671232874348,
+            "state.rate_median": 0.03287671232874348,
+            "default.rate_median": 0.04770885310591588,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-125",
+            "posterior": 1.0
+          }
+        },
+        {
+          "id": "1964110570",
+          "locationId": "THA",
+          "startTime": "2022/06/27",
+          "attributes": {
+            "state.rate": 0.20045373774884806,
+            "default.rate": 0.054942084106502274,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.981,
+            "height_mean": 0.20045373774884925,
+            "height_median": 0.062080554408364866,
+            "state.rate_median": 0.062080554408364866,
+            "default.rate_median": 0.017392008125724664,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "id": "1964887195",
+          "locationId": "VNM",
+          "startTime": "2022/11/08",
+          "attributes": {
+            "state.rate": 0.30369997634273155,
+            "default.rate": 0.15186476151686376,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.994,
+            "height_mean": 0.3036999763427295,
+            "height_median": 0.09404998292037964,
+            "state.rate_median": 0.09404998292037964,
+            "default.rate_median": 0.038490447355519215,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "internal"
+          }
+        }
+      ],
+      "lines": [
+        {
+          "startPointId": "1964112688",
+          "endPointId": "1964101931",
+          "startTime": "2022/06/25",
+          "endTime": "2022/06/25",
+          "attributes": {
+            "state.rate": 0.5801951952048546,
+            "default.rate": 0.14375733947122316,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9954,
+            "height_mean": 0.5801951952048473,
+            "height_median": 0.16056695860348208,
+            "state.rate_median": 0.16056695860348208,
+            "default.rate_median": 0.04431552308768191,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964838958",
+          "endPointId": "1964855312",
+          "startTime": "2022/10/06",
+          "endTime": "2022/10/15",
+          "attributes": {
+            "state.rate": 0.21940540903484831,
+            "default.rate": 0.025760159955827942,
+            "length": 0.05430063533816418,
+            "posterior": 0.8088,
+            "state.prob": 0.7668150346191889,
+            "height_mean": 0.21940540903484834,
+            "height_median": 0.06679781061990778,
+            "state.rate_median": 0.06679781061990778,
+            "default.rate_median": 0.004082803815222427,
+            "length_median": 0.05496097730002007,
+            "state": "THA",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964142446",
+          "endPointId": "1964153760",
+          "startTime": "2022/07/13",
+          "endTime": "2022/08/01",
+          "attributes": {
+            "state.rate": 0.4218564784995834,
+            "default.rate": 0.04472792160558165,
+            "length": 0.05430929577147034,
+            "posterior": 0.9996,
+            "state.prob": 0.9797919167667066,
+            "height_mean": 0.4218564784995812,
+            "height_median": 0.11618049079036466,
+            "state.rate_median": 0.11618049079036466,
+            "default.rate_median": 0.011206609958059416,
+            "length_median": 0.054958595830250985,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964887192",
+          "endPointId": "1964876435",
+          "startTime": "2022/11/05",
+          "endTime": "2022/11/05",
+          "attributes": {
+            "state.rate": 0.3399981666041398,
+            "default.rate": 0.08307171157084982,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.8134,
+            "height_mean": 0.3399981666041438,
+            "height_median": 0.1163269773784749,
+            "state.rate_median": 0.1163269773784749,
+            "default.rate_median": 0.017783500628293356,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964887254",
+          "endPointId": "1964898573",
+          "startTime": "2022/11/25",
+          "endTime": "2022/12/18",
+          "attributes": {
+            "state.rate": 0.24716402425824355,
+            "default.rate": 0.06027073736083727,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.8405681136227245,
+            "height_mean": 0.24716402425824519,
+            "height_median": 0.07870262740609191,
+            "state.rate_median": 0.07870262740609191,
+            "default.rate_median": 0.013079495448198739,
+            "length_median": 0.05495836498563483,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964887280",
+          "endPointId": "1964906227",
+          "startTime": "2022/11/30",
+          "endTime": "2022/12/06",
+          "attributes": {
+            "state.rate": 0.27462139587284007,
+            "default.rate": 0.014679156772891186,
+            "length": 0.05446135276960354,
+            "posterior": 0.9968,
+            "state.prob": 0.5884831460674157,
+            "height_mean": 0.2746213958728397,
+            "height_median": 0.09665424088891686,
+            "state.rate_median": 0.09665424088891686,
+            "default.rate_median": 0.005889959193226595,
+            "length_median": 0.05496433168915911,
+            "state": "KHM",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964887189",
+          "endPointId": "1964877178",
+          "startTime": "2022/11/02",
+          "endTime": "2022/11/02",
+          "attributes": {
+            "state.rate": 0.4099432524189584,
+            "default.rate": 0.07230764877757971,
+            "length": 0.05429422584786675,
+            "posterior": 0.9938,
+            "state.prob": 0.8112296236667338,
+            "height_mean": 0.4099432524189575,
+            "height_median": 0.1348918315528573,
+            "state.rate_median": 0.1348918315528573,
+            "default.rate_median": 0.0061475049202228405,
+            "length_median": 0.05495836498563483,
+            "state": "LAO",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964857403",
+          "endPointId": "1964868808",
+          "startTime": "2022/10/07",
+          "endTime": "2022/11/23",
+          "attributes": {
+            "state.rate": 0.2322242927621464,
+            "default.rate": 0.1498916351133178,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.6148,
+            "height_mean": 0.23222429276214743,
+            "height_median": 0.07905196547291929,
+            "state.rate_median": 0.07905196547291929,
+            "default.rate_median": 0.0341919068595005,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1443499916",
+          "endPointId": "1443509894",
+          "startTime": "2023/01/12",
+          "endTime": "2023/01/24",
+          "attributes": {
+            "state.rate": 0.1815867969563889,
+            "default.rate": 0.0339966506971989,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.9028,
+            "height_mean": 0.181586796956389,
+            "height_median": 0.05726520688574538,
+            "state.rate_median": 0.05726520688574538,
+            "default.rate_median": 0.010701938235953012,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964887225",
+          "endPointId": "1964914895",
+          "startTime": "2022/11/17",
+          "endTime": "2022/12/16",
+          "attributes": {
+            "state.rate": 0.28668633343219385,
+            "default.rate": 0.07823155695591759,
+            "length": 0.054298490351837946,
+            "posterior": 0.9998,
+            "state.prob": 0.9847969593918784,
+            "height_mean": 0.2866863334321906,
+            "height_median": 0.08578006013863501,
+            "state.rate_median": 0.08578006013863501,
+            "default.rate_median": 0.021010765462875974,
+            "length_median": 0.05495836498563483,
+            "state": "THA",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964112629",
+          "endPointId": "1964110570",
+          "startTime": "2022/06/08",
+          "endTime": "2022/06/27",
+          "attributes": {
+            "state.rate": 0.20045373774884806,
+            "default.rate": 0.054942084106502274,
+            "length": 0.0542877065899336,
+            "posterior": 1.0,
+            "state.prob": 0.981,
+            "height_mean": 0.20045373774884925,
+            "height_median": 0.062080554408364866,
+            "state.rate_median": 0.062080554408364866,
+            "default.rate_median": 0.017392008125724664,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "internal"
+          }
+        },
+        {
+          "startPointId": "1964906254",
+          "endPointId": "1443412689",
+          "startTime": "2022/12/12",
+          "endTime": "2023/04/07",
+          "attributes": {
+            "state.rate": 0.0410958904108157,
+            "default.rate": 0.3244226635713489,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0410958904108157,
+            "height_median": 0.041095890410815655,
+            "state.rate_median": 0.041095890410815655,
+            "default.rate_median": 0.06457862614056442,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-72",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443480911",
+          "endPointId": "1443412659",
+          "startTime": "2023/02/04",
+          "endTime": "2023/04/16",
+          "attributes": {
+            "state.rate": 0.01643835616437178,
+            "default.rate": 0.19291906277886636,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.01643835616437178,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.04774603791013624,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-193",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443510670",
+          "endPointId": "1443410544",
+          "startTime": "2023/01/15",
+          "endTime": "2023/04/11",
+          "attributes": {
+            "state.rate": 0.030136986301386122,
+            "default.rate": 0.2506339446819208,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.030136986301386122,
+            "height_median": 0.030136986301386087,
+            "state.rate_median": 0.030136986301386087,
+            "default.rate_median": 0.052188589354387895,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "H-112",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443510644",
+          "endPointId": "1443420549",
+          "startTime": "2023/01/20",
+          "endTime": "2023/04/17",
+          "attributes": {
+            "state.rate": 0.013698630137014408,
+            "default.rate": 0.25281094148172545,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.013698630137014408,
+            "height_median": 0.013698630137014361,
+            "state.rate_median": 0.013698630137014361,
+            "default.rate_median": 0.0662413808621512,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-248",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964906258",
+          "endPointId": "1443412632",
+          "startTime": "2022/12/16",
+          "endTime": "2023/04/22",
+          "attributes": {
+            "state.rate": 0.03013698630138613,
+            "default.rate": 0.3977396827374107,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03013698630138613,
+            "height_median": 0.030136986301386087,
+            "state.rate_median": 0.030136986301386087,
+            "default.rate_median": 0.08101544645797183,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-101",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443510672",
+          "endPointId": "1443390757",
+          "startTime": "2023/01/13",
+          "endTime": "2023/05/18",
+          "attributes": {
+            "state.rate": 0.005479452054714853,
+            "default.rate": 0.3479100337671298,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714853,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.08397307759444884,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-354",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443451089",
+          "endPointId": "1443331209",
+          "startTime": "2023/03/14",
+          "endTime": "2023/07/05",
+          "attributes": {
+            "state.rate": 9.456879723757083E-17,
+            "default.rate": 0.313740539505972,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.456879723757083E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.08312495629407926,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-385",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443510699",
+          "endPointId": "1443380722",
+          "startTime": "2023/01/07",
+          "endTime": "2023/05/21",
+          "attributes": {
+            "state.rate": 0.0027397260273574584,
+            "default.rate": 0.38573244935493006,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0027397260273574584,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.09651390092066225,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "H-318",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964906284",
+          "endPointId": "1443440335",
+          "startTime": "2022/12/21",
+          "endTime": "2023/03/11",
+          "attributes": {
+            "state.rate": 0.05479452054783003,
+            "default.rate": 0.26354291908101374,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.05479452054783003,
+            "height_median": 0.05479452054782999,
+            "state.rate_median": 0.05479452054782999,
+            "default.rate_median": 0.047182939037351754,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "H-59",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964191307",
+          "endPointId": "1443502065",
+          "startTime": "2022/09/28",
+          "endTime": "2023/01/04",
+          "attributes": {
+            "state.rate": 0.05753424657518742,
+            "default.rate": 0.26592252105625364,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.05753424657518742,
+            "height_median": 0.05753424657518738,
+            "state.rate_median": 0.05753424657518738,
+            "default.rate_median": 0.04856283476392714,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-61",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964846676",
+          "endPointId": "1443502007",
+          "startTime": "2022/10/16",
+          "endTime": "2023/01/20",
+          "attributes": {
+            "state.rate": 0.013698630137014408,
+            "default.rate": 0.2622682103315871,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.013698630137014408,
+            "height_median": 0.013698630137014361,
+            "state.rate_median": 0.013698630137014361,
+            "default.rate_median": 0.07378910609692016,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-229",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964846707",
+          "endPointId": "1443509894",
+          "startTime": "2022/10/26",
+          "endTime": "2023/01/24",
+          "attributes": {
+            "state.rate": 0.002739726027357458,
+            "default.rate": 0.2472562402372578,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.002739726027357458,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.0754475002014561,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-370",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964202028",
+          "endPointId": "1443518392",
+          "startTime": "2022/09/13",
+          "endTime": "2023/01/01",
+          "attributes": {
+            "state.rate": 0.005479452054714853,
+            "default.rate": 0.3097279454781243,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714853,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.08631689615814102,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-347",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964183613",
+          "endPointId": "1443510672",
+          "startTime": "2022/09/21",
+          "endTime": "2023/01/13",
+          "attributes": {
+            "state.rate": 0.0136986301370144,
+            "default.rate": 0.32528623272303575,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0136986301370144,
+            "height_median": 0.013698630137014361,
+            "state.rate_median": 0.013698630137014361,
+            "default.rate_median": 0.08034827368886245,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-240",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964153792",
+          "endPointId": "1964914926",
+          "startTime": "2022/08/12",
+          "endTime": "2022/12/26",
+          "attributes": {
+            "state.rate": 0.021917808219086583,
+            "default.rate": 0.382935609516967,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.021917808219086583,
+            "height_median": 0.021917808219086538,
+            "state.rate_median": 0.021917808219086538,
+            "default.rate_median": 0.08904379022197823,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-159",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964202058",
+          "endPointId": "1964898566",
+          "startTime": "2022/09/22",
+          "endTime": "2022/12/11",
+          "attributes": {
+            "state.rate": 0.0630136986301296,
+            "default.rate": 0.21820799361275928,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0630136986301296,
+            "height_median": 0.06301369863012954,
+            "state.rate_median": 0.06301369863012954,
+            "default.rate_median": 0.033747300239963536,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-47",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964202032",
+          "endPointId": "1964885106",
+          "startTime": "2022/09/17",
+          "endTime": "2022/11/18",
+          "attributes": {
+            "state.rate": 0.11506849315060218,
+            "default.rate": 0.1683711215993708,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.11506849315060218,
+            "height_median": 0.11506849315060211,
+            "state.rate_median": 0.11506849315060211,
+            "default.rate_median": 0.02435855000838863,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-9",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964202032",
+          "endPointId": "1964876496",
+          "startTime": "2022/09/17",
+          "endTime": "2022/11/24",
+          "attributes": {
+            "state.rate": 0.09589041095887305,
+            "default.rate": 0.1875492037910999,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.09589041095887305,
+            "height_median": 0.09589041095887299,
+            "state.rate_median": 0.09589041095887299,
+            "default.rate_median": 0.04353663220011775,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-14",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964202031",
+          "endPointId": "1964914898",
+          "startTime": "2022/09/16",
+          "endTime": "2022/12/19",
+          "attributes": {
+            "state.rate": 0.030136986301386146,
+            "default.rate": 0.2569367933755944,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.030136986301386146,
+            "height_median": 0.030136986301386087,
+            "state.rate_median": 0.030136986301386087,
+            "default.rate_median": 0.06201461320918818,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-128",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964172242",
+          "endPointId": "1964898604",
+          "startTime": "2022/08/18",
+          "endTime": "2022/12/28",
+          "attributes": {
+            "state.rate": 0.00547945205471486,
+            "default.rate": 0.36162896195453226,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.00547945205471486,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.10603300852464248,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-309",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964857434",
+          "endPointId": "1964906289",
+          "startTime": "2022/10/17",
+          "endTime": "2022/12/26",
+          "attributes": {
+            "state.rate": 0.019178082191729194,
+            "default.rate": 0.17717952607428802,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.019178082191729194,
+            "height_median": 0.019178082191729146,
+            "state.rate_median": 0.019178082191729146,
+            "default.rate_median": 0.042373117924452294,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-190",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964201997",
+          "endPointId": "1964898598",
+          "startTime": "2022/09/03",
+          "endTime": "2022/12/22",
+          "attributes": {
+            "state.rate": 0.021917808219086597,
+            "default.rate": 0.3011802781236806,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.021917808219086597,
+            "height_median": 0.021917808219086538,
+            "state.rate_median": 0.021917808219086538,
+            "default.rate_median": 0.07698895581288279,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-130",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964857464",
+          "endPointId": "1964898604",
+          "startTime": "2022/10/26",
+          "endTime": "2022/12/28",
+          "attributes": {
+            "state.rate": 0.005479452054714853,
+            "default.rate": 0.1731098726714515,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714853,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.04693621815685038,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-342",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964142506",
+          "endPointId": "1964877269",
+          "startTime": "2022/07/31",
+          "endTime": "2022/11/30",
+          "attributes": {
+            "state.rate": 0.09863013698623044,
+            "default.rate": 0.2905169653426828,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.09863013698623044,
+            "height_median": 0.09863013698623038,
+            "state.rate_median": 0.09863013698623038,
+            "default.rate_median": 0.0418195755389104,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-11",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887196",
+          "endPointId": "1443518360",
+          "startTime": "2022/11/09",
+          "endTime": "2023/01/12",
+          "attributes": {
+            "state.rate": 0.03287671232874353,
+            "default.rate": 0.17336330011751347,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03287671232874353,
+            "height_median": 0.03287671232874348,
+            "state.rate_median": 0.03287671232874348,
+            "default.rate_median": 0.04770885310591588,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-125",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887257",
+          "endPointId": "1443472211",
+          "startTime": "2022/11/28",
+          "endTime": "2023/02/25",
+          "attributes": {
+            "state.rate": 0.052054794520472646,
+            "default.rate": 0.25099947953681073,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.052054794520472646,
+            "height_median": 0.0520547945204726,
+            "state.rate_median": 0.0520547945204726,
+            "default.rate_median": 0.04089889460644556,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-46",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917016",
+          "endPointId": "1443480848",
+          "startTime": "2022/12/17",
+          "endTime": "2023/02/25",
+          "attributes": {
+            "state.rate": 0.052054794520472646,
+            "default.rate": 0.20686537162711138,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.052054794520472646,
+            "height_median": 0.0520547945204726,
+            "state.rate_median": 0.0520547945204726,
+            "default.rate_median": 0.028031079912326,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-64",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917071",
+          "endPointId": "1443458808",
+          "startTime": "2022/12/30",
+          "endTime": "2023/03/03",
+          "attributes": {
+            "state.rate": 0.03561643835610092,
+            "default.rate": 0.2581913369148233,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03561643835610092,
+            "height_median": 0.03561643835610087,
+            "state.rate_median": 0.03561643835610087,
+            "default.rate_median": 0.05311664038999816,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-100",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917040",
+          "endPointId": "1443450341",
+          "startTime": "2022/12/20",
+          "endTime": "2023/03/16",
+          "attributes": {
+            "state.rate": 0.002739726027357471,
+            "default.rate": 0.2903285014957829,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.002739726027357471,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.0840818238291238,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-343",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917014",
+          "endPointId": "1443451061",
+          "startTime": "2022/12/15",
+          "endTime": "2023/03/21",
+          "attributes": {
+            "state.rate": 0.016438356164371795,
+            "default.rate": 0.2688213391499688,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.016438356164371795,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.06695001153189895,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-212",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964906227",
+          "endPointId": "1443442452",
+          "startTime": "2022/12/06",
+          "endTime": "2023/03/14",
+          "attributes": {
+            "state.rate": 0.0027397260273574683,
+            "default.rate": 0.33521012066898415,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0027397260273574683,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.09380557332977586,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-481",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443440330",
+          "endPointId": "1443361745",
+          "startTime": "2023/03/16",
+          "endTime": "2023/06/06",
+          "attributes": {
+            "state.rate": 0.03287671232874352,
+            "default.rate": 0.22660130246862176,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03287671232874352,
+            "height_median": 0.03287671232874348,
+            "state.rate_median": 0.03287671232874348,
+            "default.rate_median": 0.04373486864901626,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-146",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443410541",
+          "endPointId": "1443361712",
+          "startTime": "2023/04/14",
+          "endTime": "2023/06/18",
+          "attributes": {
+            "state.rate": 9.143241719300477E-17,
+            "default.rate": 0.17858742633314253,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.143241719300477E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.05194494675577937,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-478",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443440327",
+          "endPointId": "1443353077",
+          "startTime": "2023/03/19",
+          "endTime": "2023/06/16",
+          "attributes": {
+            "state.rate": 0.005479452054714851,
+            "default.rate": 0.26359682354196434,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714851,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.06946033852063452,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-329",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443470120",
+          "endPointId": "1443399158",
+          "startTime": "2023/02/17",
+          "endTime": "2023/05/29",
+          "attributes": {
+            "state.rate": 0.0054794520547148525,
+            "default.rate": 0.31274783143753154,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0054794520547148525,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.08099368277627679,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-277",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964201995",
+          "endPointId": "1964906254",
+          "startTime": "2022/09/01",
+          "endTime": "2022/12/12",
+          "attributes": {
+            "state.rate": 0.06849315068484436,
+            "default.rate": 0.3315945403787442,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.06849315068484436,
+            "height_median": 0.06849315068484432,
+            "state.rate_median": 0.06849315068484432,
+            "default.rate_median": 0.04402378869879518,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-32",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964202028",
+          "endPointId": "1964898605",
+          "startTime": "2022/09/13",
+          "endTime": "2022/12/29",
+          "attributes": {
+            "state.rate": 0.02191780821908658,
+            "default.rate": 0.29105264035599654,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.02191780821908658,
+            "height_median": 0.021917808219086538,
+            "state.rate_median": 0.021917808219086538,
+            "default.rate_median": 0.06946818989291739,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-145",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964202028",
+          "endPointId": "1443510704",
+          "startTime": "2022/09/13",
+          "endTime": "2023/01/02",
+          "attributes": {
+            "state.rate": 0.008219178082072242,
+            "default.rate": 0.3047512704930109,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.008219178082072242,
+            "height_median": 0.008219178082072204,
+            "state.rate_median": 0.008219178082072204,
+            "default.rate_median": 0.08316682002993173,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-239",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964916987",
+          "endPointId": "1443480880",
+          "startTime": "2022/12/09",
+          "endTime": "2023/02/14",
+          "attributes": {
+            "state.rate": 0.002739726027357462,
+            "default.rate": 0.4908046664653687,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.002739726027357462,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.08594717959270767,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-301",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964916987",
+          "endPointId": "1443472247",
+          "startTime": "2022/12/09",
+          "endTime": "2023/02/10",
+          "attributes": {
+            "state.rate": 0.013698630137014408,
+            "default.rate": 0.2732191163996772,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.013698630137014408,
+            "height_median": 0.013698630137014361,
+            "state.rate_median": 0.013698630137014361,
+            "default.rate_median": 0.07498827548305073,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-243",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964916982",
+          "endPointId": "1443451116",
+          "startTime": "2022/12/04",
+          "endTime": "2023/03/08",
+          "attributes": {
+            "state.rate": 9.354184093979257E-17,
+            "default.rate": 0.4117590841306158,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.354184093979257E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.09071940385368032,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-514",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887225",
+          "endPointId": "1443488532",
+          "startTime": "2022/11/17",
+          "endTime": "2023/02/28",
+          "attributes": {
+            "state.rate": 0.019178082191729205,
+            "default.rate": 0.33005183455212034,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.019178082191729205,
+            "height_median": 0.019178082191729146,
+            "state.rate_median": 0.019178082191729146,
+            "default.rate_median": 0.08358263063888732,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-246",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887280",
+          "endPointId": "1443472242",
+          "startTime": "2022/11/30",
+          "endTime": "2023/02/15",
+          "attributes": {
+            "state.rate": 9.323652960802065E-17,
+            "default.rate": 0.49207016154893135,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.323652960802065E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.10648314320926491,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-386",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887280",
+          "endPointId": "1443510666",
+          "startTime": "2022/11/30",
+          "endTime": "2023/01/19",
+          "attributes": {
+            "state.rate": 0.0794520547945013,
+            "default.rate": 0.24604946937649694,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0794520547945013,
+            "height_median": 0.07945205479450126,
+            "state.rate_median": 0.07945205479450126,
+            "default.rate_median": 0.02702927141073328,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-23",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964916985",
+          "endPointId": "1443451123",
+          "startTime": "2022/12/07",
+          "endTime": "2023/03/01",
+          "attributes": {
+            "state.rate": 0.03561643835610092,
+            "default.rate": 0.23782882967033453,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03561643835610092,
+            "height_median": 0.03561643835610087,
+            "state.rate_median": 0.03561643835610087,
+            "default.rate_median": 0.05801001937067439,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-107",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917010",
+          "endPointId": "1443451059",
+          "startTime": "2022/12/11",
+          "endTime": "2023/03/23",
+          "attributes": {
+            "state.rate": 0.016438356164371812,
+            "default.rate": 0.28446023501603784,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.016438356164371812,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.08174602614280782,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-169",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917010",
+          "endPointId": "1443488564",
+          "startTime": "2022/12/11",
+          "endTime": "2023/02/17",
+          "attributes": {
+            "state.rate": 0.032876712328743535,
+            "default.rate": 0.2874837922657649,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.032876712328743535,
+            "height_median": 0.03287671232874348,
+            "state.rate_median": 0.03287671232874348,
+            "default.rate_median": 0.07267630636116304,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-124",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917041",
+          "endPointId": "1443472244",
+          "startTime": "2022/12/21",
+          "endTime": "2023/02/13",
+          "attributes": {
+            "state.rate": 0.00547945205471486,
+            "default.rate": 0.31346016395261683,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.00547945205471486,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.09744317138888296,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-307",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917018",
+          "endPointId": "1443488536",
+          "startTime": "2022/12/19",
+          "endTime": "2023/02/24",
+          "attributes": {
+            "state.rate": 0.0027397260273574688,
+            "default.rate": 0.18993467673114398,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0027397260273574688,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.057369109255955786,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-447",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887195",
+          "endPointId": "1443480162",
+          "startTime": "2022/11/08",
+          "endTime": "2023/02/07",
+          "attributes": {
+            "state.rate": 0.049315068493115254,
+            "default.rate": 0.25438490784961626,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.049315068493115254,
+            "height_median": 0.049315068493115205,
+            "state.rate_median": 0.049315068493115205,
+            "default.rate_median": 0.044734914427264426,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-75",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964898538",
+          "endPointId": "1443470125",
+          "startTime": "2022/12/04",
+          "endTime": "2023/02/12",
+          "attributes": {
+            "state.rate": 0.008219178082072238,
+            "default.rate": 0.19393733718746026,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.008219178082072238,
+            "height_median": 0.008219178082072204,
+            "state.rate_median": 0.008219178082072204,
+            "default.rate_median": 0.06498816567597668,
+            "length_median": 0.054957620239472094,
+            "state": "VNM",
+            "nodeName": "H-275",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887220",
+          "endPointId": "1443488568",
+          "startTime": "2022/11/12",
+          "endTime": "2023/02/13",
+          "attributes": {
+            "state.rate": 0.005479452054714849,
+            "default.rate": 0.2586478717170786,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714849,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.07229086338260735,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-322",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887224",
+          "endPointId": "1443451061",
+          "startTime": "2022/11/16",
+          "endTime": "2023/03/21",
+          "attributes": {
+            "state.rate": 0.01917808219172918,
+            "default.rate": 0.34397881321419216,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.01917808219172918,
+            "height_median": 0.019178082191729146,
+            "state.rate_median": 0.019178082191729146,
+            "default.rate_median": 0.08699992835373055,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-197",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887224",
+          "endPointId": "1443450314",
+          "startTime": "2022/11/16",
+          "endTime": "2023/03/22",
+          "attributes": {
+            "state.rate": 0.016438356164371788,
+            "default.rate": 0.346718001927976,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.016438356164371788,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.08973965438108794,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-180",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443499918",
+          "endPointId": "1443442416",
+          "startTime": "2023/01/10",
+          "endTime": "2023/03/29",
+          "attributes": {
+            "state.rate": 9.920397836538086E-17,
+            "default.rate": 0.27699006742728494,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 9.920397836538086E-17,
+            "height_median": 2.7755575615628914E-17,
+            "state.rate_median": 2.7755575615628914E-17,
+            "default.rate_median": 0.06948553713058622,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-449",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887256",
+          "endPointId": "1443458744",
+          "startTime": "2022/11/27",
+          "endTime": "2023/03/25",
+          "attributes": {
+            "state.rate": 0.00821917808207224,
+            "default.rate": 0.352022788331672,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.00821917808207224,
+            "height_median": 0.008219178082072204,
+            "state.rate_median": 0.008219178082072204,
+            "default.rate_median": 0.0969824226475055,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-333",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917047",
+          "endPointId": "1443442423",
+          "startTime": "2022/12/27",
+          "endTime": "2023/03/22",
+          "attributes": {
+            "state.rate": 0.021917808219086565,
+            "default.rate": 0.22895321315933356,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.021917808219086565,
+            "height_median": 0.021917808219086538,
+            "state.rate_median": 0.021917808219086538,
+            "default.rate_median": 0.0565557232891705,
+            "length_median": 0.054957620239472094,
+            "state": "THA",
+            "nodeName": "H-152",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443499916",
+          "endPointId": "1443458773",
+          "startTime": "2023/01/12",
+          "endTime": "2023/03/17",
+          "attributes": {
+            "state.rate": 0.0356164383561009,
+            "default.rate": 0.17996700929748607,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.0356164383561009,
+            "height_median": 0.03561643835610087,
+            "state.rate_median": 0.03561643835610087,
+            "default.rate_median": 0.032445424513482486,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-129",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1443502061",
+          "endPointId": "1443450309",
+          "startTime": "2023/01/08",
+          "endTime": "2023/03/27",
+          "attributes": {
+            "state.rate": 0.008219178082072242,
+            "default.rate": 0.21741284934082297,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.008219178082072242,
+            "height_median": 0.008219178082072204,
+            "state.rate_median": 0.008219178082072204,
+            "default.rate_median": 0.059722894623668366,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-314",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917013",
+          "endPointId": "1443451056",
+          "startTime": "2022/12/14",
+          "endTime": "2023/03/26",
+          "attributes": {
+            "state.rate": 0.005479452054714848,
+            "default.rate": 0.3241071660921609,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714848,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.08815396672903417,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-281",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964917047",
+          "endPointId": "1443451090",
+          "startTime": "2022/12/27",
+          "endTime": "2023/03/13",
+          "attributes": {
+            "state.rate": 0.04109589041081571,
+            "default.rate": 0.21221979945683248,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.04109589041081571,
+            "height_median": 0.041095890410815655,
+            "state.rate_median": 0.041095890410815655,
+            "default.rate_median": 0.03464325574484901,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-55",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964142414",
+          "endPointId": "1964124030",
+          "startTime": "2022/07/02",
+          "endTime": "2022/07/20",
+          "attributes": {
+            "state.rate": 0.13972602739727344,
+            "default.rate": 0.4114301949592663,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.13972602739727344,
+            "height_median": 0.13972602739727338,
+            "state.rate_median": 0.13972602739727338,
+            "default.rate_median": 0.047076382324621344,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-4",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887190",
+          "endPointId": "1964898567",
+          "startTime": "2022/11/03",
+          "endTime": "2022/12/12",
+          "attributes": {
+            "state.rate": 0.03835616438345831,
+            "default.rate": 0.10597919658900848,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.03835616438345831,
+            "height_median": 0.03835616438345826,
+            "state.rate_median": 0.03835616438345826,
+            "default.rate_median": 0.01933557861948914,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-104",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964887190",
+          "endPointId": "1964906288",
+          "startTime": "2022/11/03",
+          "endTime": "2022/12/25",
+          "attributes": {
+            "state.rate": 0.002739726027357471,
+            "default.rate": 0.14159563494510916,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.002739726027357471,
+            "height_median": 0.0027397260273574198,
+            "state.rate_median": 0.0027397260273574198,
+            "default.rate_median": 0.05495201697558998,
+            "length_median": 0.054957620239472094,
+            "state": "KHM",
+            "nodeName": "H-387",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964142414",
+          "endPointId": "1964877181",
+          "startTime": "2022/07/02",
+          "endTime": "2022/11/05",
+          "attributes": {
+            "state.rate": 0.1397260273972734,
+            "default.rate": 0.34277808167514506,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.1397260273972734,
+            "height_median": 0.13972602739727338,
+            "state.rate_median": 0.13972602739727338,
+            "default.rate_median": 0.03210420678843445,
+            "length_median": 0.054957620239472094,
+            "state": "LAO",
+            "nodeName": "H-3",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964112656",
+          "endPointId": "1964183558",
+          "startTime": "2022/06/14",
+          "endTime": "2022/09/08",
+          "attributes": {
+            "state.rate": 0.005479452054714865,
+            "default.rate": 0.232093819694465,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.005479452054714865,
+            "height_median": 0.005479452054714812,
+            "state.rate_median": 0.005479452054714812,
+            "default.rate_median": 0.07325695966695739,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-288",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964082834",
+          "endPointId": "1964153824",
+          "startTime": "2022/05/04",
+          "endTime": "2022/08/23",
+          "attributes": {
+            "state.rate": 0.04931506849311525,
+            "default.rate": 0.30039172549696086,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.04931506849311525,
+            "height_median": 0.049315068493115205,
+            "state.rate_median": 0.049315068493115205,
+            "default.rate_median": 0.06888216034954497,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-60",
+            "posterior": 1.0
+          }
+        },
+        {
+          "startPointId": "1964082865",
+          "endPointId": "1964183554",
+          "startTime": "2022/05/14",
+          "endTime": "2022/09/04",
+          "attributes": {
+            "state.rate": 0.016438356164371802,
+            "default.rate": 0.3061736149399284,
+            "length": 0.0542877065899336,
+            "state.prob": 1.0,
+            "height_mean": 0.016438356164371802,
+            "height_median": 0.016438356164371754,
+            "state.rate_median": 0.016438356164371754,
+            "default.rate_median": 0.09543559610308447,
+            "length_median": 0.054957620239472094,
+            "state": "CHN",
+            "nodeName": "H-245",
+            "posterior": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}
