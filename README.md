@@ -6,6 +6,9 @@ Ce read me contient toutes les étapes nécessaires à la réalisation de ce pro
 
 Certains fichier deviennent trop lourd pour exporter directement sur GitHub mais peuvent facilement être recréé via les différentes étapes ci-dessous. 
 
+Vérifier l’absence d’un signal de recombinaison au sein de l’alignement de séquences n’a pas pu être menée à terme sur Datamonkey en raison d’un problème technique du serveur/site, malgré l’utilisation d’un fichier réduit et de paramètres allégés. L’analyse de recombinaison n’a donc pas été interprétée.
+Le code pour alléger le fichier "DENV_genomic_analyses_simulated_dataset_2-1.fas" ainsi que le message d'erreur se
+trouve dans le dossier Datamonkey.
 
 
 1) Analyse préliminaire : chaque binôme est aussi invité à réaliser une analyse préliminaire non-basée 
@@ -20,12 +23,11 @@ Cette étape nécessitera le code R_code_Analyses_préliminaires.
 
 
 
-2) Vérifier l’absence d’un signal de recombinaison au sein de l’alignement de séquences.
+2) Vérifier l’absence d’un signal de recombinaison au sein de l’alignement de séquences
 
+
+2.1)  Obtenir une estimation phylogénétique par la méthode du maximum de vraisemblance
 Cette étape nécesite de télécharger iqtree3 sous Windows (iqtree-3.1.2-Windows)
-
-
-2.1)  Obtenir uen estimation phylogénétique par la méthode du maximum de vraisemblance
 
 Aller dans l'invite de commande et écrire :
 
